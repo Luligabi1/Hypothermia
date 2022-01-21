@@ -1,0 +1,71 @@
+{
+	id: "66FB644C8C457BC8"
+	group: "1ECF94BB6B8B34D0"
+	order_index: 2
+	filename: "conjuring"
+	title: "Conjuring"
+	icon: "conjuring:conjuration_essence"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 10.0d
+			y: 0.0d
+			id: "78E0BF40FEF08F9B"
+			tasks: [{
+				id: "4D7B1CEF06443296"
+				type: "item"
+				item: "conjuring:gem_socket"
+			}]
+		}
+		{
+			title: "Ignorant Conjuring"
+			x: 12.0d
+			y: -2.0d
+			subtitle: "Ignorance might be an actual bliss in this case..."
+			dependencies: ["78E0BF40FEF08F9B"]
+			id: "0F697A01B2950B80"
+			tasks: [{
+				id: "7019FEFD91E7156C"
+				type: "item"
+				item: "conjuring:ignorance_gem"
+			}]
+		}
+		{
+			title: "Wide Conjuring"
+			x: 12.0d
+			y: 2.0d
+			dependencies: ["78E0BF40FEF08F9B"]
+			id: "70E848D64EFF7813"
+			tasks: [{
+				id: "4DE6EEF3037B0DC9"
+				type: "item"
+				item: "conjuring:scope_gem"
+			}]
+		}
+		{
+			title: "Abundant Conjuring"
+			x: 8.0d
+			y: 2.0d
+			dependencies: ["78E0BF40FEF08F9B"]
+			id: "41B28445EFCBAF4E"
+			tasks: [{
+				id: "6CEB853E19709EA0"
+				type: "item"
+				item: "conjuring:abundance_gem"
+			}]
+		}
+		{
+			title: "Rapid Conjuring"
+			x: 8.0d
+			y: -2.0d
+			dependencies: ["78E0BF40FEF08F9B"]
+			id: "3979EC91204363F9"
+			tasks: [{
+				id: "4C2DFE4A4D9C3DFF"
+				type: "item"
+				item: "conjuring:haste_gem"
+			}]
+		}
+	]
+}

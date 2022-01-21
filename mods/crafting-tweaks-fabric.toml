@@ -1,0 +1,13 @@
+name = "Crafting Tweaks (Fabric Edition)"
+filename = "craftingtweaks-fabric-1.18-13.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3545/612/craftingtweaks-fabric-1.18-13.0.0.jar"
+hash-format = "murmur2"
+hash = "4086974381"
+
+[update]
+[update.curseforge]
+file-id = 3545612
+project-id = 502516

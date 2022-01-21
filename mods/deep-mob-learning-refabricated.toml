@@ -1,0 +1,13 @@
+name = "Deep Mob Learning: Refabricated"
+filename = "deepmoblearning-refabricated-0.5.0-beta2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3561/305/deepmoblearning-refabricated-0.5.0-beta2.jar"
+hash-format = "murmur2"
+hash = "1038337603"
+
+[update]
+[update.curseforge]
+file-id = 3561305
+project-id = 398614

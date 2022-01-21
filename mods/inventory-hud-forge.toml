@@ -1,0 +1,13 @@
+name = "Inventory HUD+"
+filename = "InventoryHUD-fabric-[1.18] -3.4.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3545/928/InventoryHUD-fabric-[1.18] -3.4.2.jar"
+hash-format = "murmur2"
+hash = "4262676809"
+
+[update]
+[update.curseforge]
+file-id = 3545928
+project-id = 357540

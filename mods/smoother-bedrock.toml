@@ -1,0 +1,13 @@
+name = "Smoother Bedrock"
+filename = "smootherbedrock-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3541/955/smootherbedrock-1.0.3.jar"
+hash-format = "murmur2"
+hash = "393040116"
+
+[update]
+[update.curseforge]
+file-id = 3541955
+project-id = 403889

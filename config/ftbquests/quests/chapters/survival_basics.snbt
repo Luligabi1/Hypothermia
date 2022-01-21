@@ -1,0 +1,347 @@
+{
+	id: "305606A5BA068419"
+	group: "4AC104EE1CC52600"
+	order_index: 0
+	filename: "survival_basics"
+	title: "Survival Basics"
+	icon: "minecraft:crafting_table"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Cold Beginnings"
+			icon: "temperaturebiomes:frozen_bush"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Obtain wood through Frozen Bushes."
+			description: ["Lost on an endless cold desert, you must adapt to survive. First, obtain some sticks from the frozen bushes. Then, craft 'em together on a 2x2 grid to get planks."]
+			id: "7B009F51058B0AE3"
+			tasks: [{
+				id: "2E9C462069E682A0"
+				type: "item"
+				item: "minecraft:stick"
+				count: 30L
+			}]
+			rewards: [{
+				id: "12A84A275802FD3F"
+				type: "item"
+				item: "seasons:season_calendar"
+			}]
+		}
+		{
+			title: "Green Conquest"
+			x: 10.0d
+			y: 0.0d
+			subtitle: "Obtain Greenhouse Glass to grow Trees and Crops in the Frigid Tundra."
+			description: ["Greenhouse Glass is a special glass allowing crops and trees to grow, even on the Frozen Tundra. Put it ~10 blocks above the tree/crop you want to grow."]
+			dependencies: ["279979BA288F1B1E"]
+			id: "48345325DB9BC09D"
+			tasks: [{
+				id: "29941E43629A018B"
+				type: "item"
+				item: "seasons:greenhouse_glass"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "16214F532CCD138D"
+					type: "item"
+					item: "minecraft:spruce_sapling"
+					count: 2
+				}
+				{
+					id: "4237BA978AFBE744"
+					type: "choice"
+					table_id: 8705532537484312360L
+				}
+			]
+		}
+		{
+			x: 20.0d
+			y: 0.0d
+			dependencies: ["646AEB7EB0B8AD2C"]
+			id: "46269C6E30C11B4D"
+			tasks: [{
+				id: "0E92EDB784F3053C"
+				type: "item"
+				item: "minecraft:netherrack"
+			}]
+		}
+		{
+			title: "Crafting on The Fly"
+			x: 2.5d
+			y: -2.5d
+			subtitle: "Craft a Pocket Crafting Table."
+			description: ["While on the wild searching for resources, you might need to craft something on the fly. For that, you might want a pocket crafting table."]
+			dependencies: ["104815999D42C27B"]
+			optional: true
+			id: "4F9D617ED6495E7E"
+			tasks: [{
+				id: "7DD59587AB6D7688"
+				type: "item"
+				item: "kibe:pocket_crafting_table"
+			}]
+		}
+		{
+			title: "Light of Hope"
+			x: 25.0d
+			y: 0.0d
+			shape: "octagon"
+			size: 1.5d
+			id: "4A2FF30A025DB1BB"
+			tasks: [{
+				id: "0D484A05A064AADC"
+				type: "item"
+				item: "kibe:big_torch"
+			}]
+			rewards: [{
+				id: "130AF2620A070546"
+				type: "choice"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			dependencies: ["48345325DB9BC09D"]
+			id: "032283A19ED82B73"
+			tasks: [
+				{
+					id: "15E7ADDA2950B138"
+					type: "kill"
+					entity: "minecraft:stray"
+					value: 7L
+				}
+				{
+					id: "08AE845E7E445C9D"
+					type: "kill"
+					entity: "elementalcreepers:ice_creeper"
+					value: 3L
+				}
+			]
+		}
+		{
+			title: "All In One Tools"
+			x: 7.5d
+			y: -2.5d
+			description: ["AIOTs (All in One Tools) are 5 in 1 tools: A sword, pickaxe, axe, shovel and hoe - all in one slot. For this quest you must craft a stone AIOT, but other materials are available!"]
+			dependencies: ["03602DD4FB141B8F"]
+			optional: true
+			id: "6E20F698430742E6"
+			tasks: [{
+				id: "32F5CECB56A93309"
+				type: "item"
+				item: {
+					id: "basicaiots:stone_aiot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Hammers"
+			x: 10.0d
+			y: -2.5d
+			description: ["Hammers are pickaxe-like tools that break blocks on a 3x3 area. For this quest you must craft a stone hammer, but other materials are available!"]
+			dependencies: ["6E20F698430742E6"]
+			optional: true
+			id: "36DFC3455D4DE4A2"
+			tasks: [{
+				id: "4CCBEA51FBD155F6"
+				type: "item"
+				item: {
+					id: "vanilla-hammers:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Excavators"
+			x: 12.5d
+			y: -2.5d
+			description: ["Excavators are shovel-like tools that break blocks on a 3x3 area. For this quest you must craft a stone excavator, but other materials are available!"]
+			dependencies: ["36DFC3455D4DE4A2"]
+			optional: true
+			id: "6F59E0C456766549"
+			tasks: [{
+				id: "79EA3E904AFAE443"
+				type: "item"
+				item: {
+					id: "vanillaexcavators:stone_excavator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Stationary Crafting"
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Craft a Crafting Station."
+			description: ["Crafting Stations are an improved version of the regular crafting tables, being able to permanently store the items inside it."]
+			dependencies: ["7B009F51058B0AE3"]
+			id: "104815999D42C27B"
+			tasks: [{
+				id: "5C20B1A89246B32A"
+				type: "item"
+				item: "improved-stations:crafting_station"
+			}]
+		}
+		{
+			title: "Frigid Mining"
+			x: 5.0d
+			y: 0.0d
+			description: ["Despite the cold surface, this place seems normal underground."]
+			dependencies: ["104815999D42C27B"]
+			id: "03602DD4FB141B8F"
+			tasks: [{
+				id: "5E4828CB50921055"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 16L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 2.5d
+			description: ["While exploring you might see the need to store more items within your inventory. This backpack has 9 slots, being upgradeable."]
+			optional: true
+			id: "7BD5E1FAF60B47BD"
+			tasks: [{
+				id: "7C0462C71D896A4F"
+				type: "item"
+				item: "inmis:frayed_backpack"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 2.5d
+			description: ["While exploring you might see the need to store more items within your inventory. This backpack has 18 slots, being upgradeable."]
+			dependencies: ["7BD5E1FAF60B47BD"]
+			optional: true
+			id: "4206315C158D9089"
+			tasks: [{
+				id: "1F590200A0153F96"
+				type: "item"
+				item: "inmis:plated_backpack"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 2.5d
+			description: ["While exploring you might see the need to store more items within your inventory. This backpack has 27 slots, being upgradeable."]
+			dependencies: ["4206315C158D9089"]
+			optional: true
+			id: "7F96A91A4D1D9152"
+			tasks: [{
+				id: "3827D16F298899C1"
+				type: "item"
+				item: "inmis:gilded_backpack"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 5.0d
+			optional: true
+			id: "07BCDBFCAF851AF9"
+			tasks: [{
+				id: "39EADC22FC434F19"
+				type: "item"
+				item: "fabric-furnaces:fabric_furnace"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 5.0d
+			dependencies: ["07BCDBFCAF851AF9"]
+			optional: true
+			id: "500AE632B7B7B81A"
+			tasks: [{
+				id: "27D24224E9E2D925"
+				type: "item"
+				item: "fabric-furnaces:iron_furnace"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 5.0d
+			dependencies: ["500AE632B7B7B81A"]
+			optional: true
+			id: "0B2FA821C7BFB9F1"
+			tasks: [{
+				id: "4258670DE78A76EE"
+				type: "item"
+				item: "fabric-furnaces:gold_furnace"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 0.0d
+			description: ["Carrying Gloves are a special item that allows you to move chests and other blocks with inventories. To use, Shift+Click the block with the glove in hand."]
+			dependencies: ["1BAECD368E532523"]
+			id: "646AEB7EB0B8AD2C"
+			tasks: [{
+				id: "0BD998B982103797"
+				type: "item"
+				item: "carrier:glove"
+			}]
+		}
+		{
+			title: "Expanding your Storage"
+			x: 7.5d
+			y: 0.0d
+			subtitle: "Expand your Storage by crafting an Iron Chest."
+			description: ["Sometimes just an wooden chest might not be enough. Higher tiers are available, check REI!"]
+			dependencies: ["03602DD4FB141B8F"]
+			id: "279979BA288F1B1E"
+			tasks: [{
+				id: "0B62DE107F777791"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+			}]
+			rewards: [{
+				id: "4A09B75FDD7DCE67"
+				type: "item"
+				item: "expandedstorage:wood_to_iron_conversion_kit"
+			}]
+		}
+		{
+			title: "Warming Up"
+			x: 12.5d
+			y: 0.0d
+			subtitle: "I thought this was a snow-themed modpack..."
+			description: ["Heaters are redstone-powered machines to remove snow layer blocks from the terrain. Can be extremely useful for building on the surface!"]
+			dependencies: ["48345325DB9BC09D"]
+			id: "0BAEDBD1107DF28B"
+			tasks: [{
+				id: "4C575169A3FEC7A1"
+				type: "item"
+				item: "kibe:heater"
+			}]
+		}
+		{
+			title: "Dehumidifying"
+			x: 15.0d
+			y: 0.0d
+			description: ["Dehumidifiers are powerful machines that remove snowing particles near it, being activated via a redstone signal. You *could* just disable particles, but where's the fun in not doing overcomplicated crafting recipes?"]
+			dependencies: ["0BAEDBD1107DF28B"]
+			id: "1BAECD368E532523"
+			tasks: [{
+				id: "27434C1A06E51DE3"
+				type: "item"
+				item: "kibe:dehumidifier"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 0.0d
+			id: "289E8639DF376087"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+name = "Inmis"
+filename = "inmis-2.5.0-1.18.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3612/555/inmis-2.5.0-1.18.1.jar"
+hash-format = "murmur2"
+hash = "2725945766"
+
+[update]
+[update.curseforge]
+file-id = 3612555
+project-id = 369254

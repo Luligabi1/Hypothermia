@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "4AC104EE1CC52600", title: "Chapter α: The Basics" }
+		{ id: "6E81D4649406C6F9", title: "Chapter β: Technology" }
+		{ id: "7C8A65D35C538092", title: "Chapter Δ: Utility" }
+		{ id: "613832B2967BEC39", title: "Chapter ζ: Technology #2" }
+		{ id: "1ECF94BB6B8B34D0", title: "Chapter λ: Magic" }
+		{ id: "0D9C65074384D358", title: "Chapter π: Technology #3" }
+		{ id: "1F176B03BA821EA9", title: "Chapter Ω: Extras" }
+	]
+}

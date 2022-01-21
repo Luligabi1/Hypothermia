@@ -1,0 +1,541 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/boringbackgrounds.json"
+
+[[files]]
+file = "config/carrier.json"
+
+[[files]]
+file = "config/dark-loading-screen.json"
+
+[[files]]
+file = "config/expandedstorage.json"
+
+[[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/1st_industrial_revolution.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/2nd_industrial_revolution.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/3rd_industrial_revolution.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/adventure.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/better_storage.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/collectors_quest.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/deeply_learning_mobs.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/how_to_become_a_witcj.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/spectrum.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/survival_basics.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/tech.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/technologys_rebirth__part_ii.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/technologys_reborn.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/plantchoice.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/pristine_matter.snbt"
+
+[[files]]
+file = "config/modmenu.json"
+
+[[files]]
+file = "config/roughlyenoughitems/config.json5"
+
+[[files]]
+file = "config/seasons.json"
+
+[[files]]
+file = "config/slightguimodifications/background.png"
+
+[[files]]
+file = "config/slightguimodifications/buttons.png"
+
+[[files]]
+file = "config/slightguimodifications/config.json5"
+
+[[files]]
+file = "config/slightguimodifications/cts.groovy"
+
+[[files]]
+file = "config/slightguimodifications/discord_button.png"
+
+[[files]]
+file = "config/slightguimodifications/discord_button_hovered.png"
+
+[[files]]
+file = "config/slightguimodifications/logo.png"
+
+[[files]]
+file = "config/slightguimodifications/slider.png"
+
+[[files]]
+file = "config/slightguimodifications/slider_hovered.png"
+
+[[files]]
+file = "config/slightguimodifications/text_field.png"
+
+[[files]]
+file = "kubejs/README.txt"
+
+[[files]]
+file = "kubejs/assets/authme/textures/gui/widgets.png"
+
+[[files]]
+file = "kubejs/client_scripts/rei_unification.js"
+
+[[files]]
+file = "kubejs/client_scripts/rei_unification.js.bak"
+
+[[files]]
+file = "kubejs/config/client.properties"
+
+[[files]]
+file = "kubejs/config/common.properties"
+
+[[files]]
+file = "kubejs/data/cosmetic-armor/tags/items/blacklist.json"
+
+[[files]]
+file = "kubejs/data/indrev/loot_tables/blocks/deepslate_silver_ore.json"
+
+[[files]]
+file = "kubejs/data/indrev/loot_tables/blocks/silver_ore.json"
+
+[[files]]
+file = "kubejs/exported/tags/biomes.txt"
+
+[[files]]
+file = "kubejs/exported/tags/blocks.txt"
+
+[[files]]
+file = "kubejs/exported/tags/entity_types.txt"
+
+[[files]]
+file = "kubejs/exported/tags/fluids.txt"
+
+[[files]]
+file = "kubejs/exported/tags/functions.txt"
+
+[[files]]
+file = "kubejs/exported/tags/game_events.txt"
+
+[[files]]
+file = "kubejs/exported/tags/items.txt"
+
+[[files]]
+file = "kubejs/server_scripts/recipetypes/indrev/infuse.js"
+
+[[files]]
+file = "kubejs/server_scripts/recipetypes/indrev/infuse.js.bak"
+
+[[files]]
+file = "kubejs/server_scripts/recipetypes/indrev/recycle.js"
+
+[[files]]
+file = "kubejs/server_scripts/recipetypes/minecraft/shaped.js"
+
+[[files]]
+file = "kubejs/server_scripts/recipetypes/minecraft/shaped.js.bak"
+
+[[files]]
+file = "kubejs/server_scripts/recipetypes/techreborn/assembling_machine.js"
+
+[[files]]
+file = "kubejs/server_scripts/recipetypes/techreborn/assembling_machine.js.bak"
+
+[[files]]
+file = "kubejs/server_scripts/unification/materials.js"
+
+[[files]]
+file = "kubejs/server_scripts/unification/materials.js.bak"
+
+[[files]]
+file = "kubejs/startup_scripts/worldgen.js"
+
+[[files]]
+file = "mods/advancements-enlarger.toml"
+metafile = true
+
+[[files]]
+file = "mods/ae2things.toml"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.toml"
+metafile = true
+
+[[files]]
+file = "mods/applied-energistics-2.toml"
+metafile = true
+
+[[files]]
+file = "mods/architectury-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/attributefix.toml"
+metafile = true
+
+[[files]]
+file = "mods/auth-me.toml"
+metafile = true
+
+[[files]]
+file = "mods/auto-config-updated-api.toml"
+metafile = true
+
+[[files]]
+file = "mods/balm-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/basic-aiots.toml"
+metafile = true
+
+[[files]]
+file = "mods/blockus.toml"
+metafile = true
+
+[[files]]
+file = "mods/boring-backgrounds.toml"
+metafile = true
+
+[[files]]
+file = "mods/break-progress.toml"
+metafile = true
+
+[[files]]
+file = "mods/can-i-mine-this-block.toml"
+metafile = true
+
+[[files]]
+file = "mods/can-you-trash-it.toml"
+metafile = true
+
+[[files]]
+file = "mods/carrier.toml"
+metafile = true
+
+[[files]]
+file = "mods/cherished-worlds-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/cloth-api.toml"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.toml"
+metafile = true
+
+[[files]]
+file = "mods/clumps.toml"
+metafile = true
+
+[[files]]
+file = "mods/conjuring.toml"
+metafile = true
+
+[[files]]
+file = "mods/cosmetic-armor-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/crafting-tweaks-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/croptopia-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/dank-storage-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/dark-loading-screen.toml"
+metafile = true
+
+[[files]]
+file = "mods/deep-mob-learning-refabricated.toml"
+metafile = true
+
+[[files]]
+file = "mods/deep-mob-learning-simulacrum.toml"
+metafile = true
+
+[[files]]
+file = "mods/diggus-maximus.toml"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.toml"
+metafile = true
+
+[[files]]
+file = "mods/expanded-storage-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/extra-generators.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabric-disable-custom-worlds-advice.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabric-seasons.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabric-waystones.toml"
+metafile = true
+
+[[files]]
+file = "mods/fps-reducer.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-chunks-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/i-know-what-im-doing.toml"
+metafile = true
+
+[[files]]
+file = "mods/incantationem.toml"
+metafile = true
+
+[[files]]
+file = "mods/industrial-revolution.toml"
+metafile = true
+
+[[files]]
+file = "mods/inmis.toml"
+metafile = true
+
+[[files]]
+file = "mods/inventory-hud-forge.toml"
+metafile = true
+
+[[files]]
+file = "mods/inventory-sorting.toml"
+metafile = true
+
+[[files]]
+file = "mods/iron-jetpacks-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/item-filters-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/jumpoverfences.toml"
+metafile = true
+
+[[files]]
+file = "mods/kibe.toml"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-extras.toml"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/lazydfu.toml"
+metafile = true
+
+[[files]]
+file = "mods/lifts.toml"
+metafile = true
+
+[[files]]
+file = "mods/light-overlay.toml"
+metafile = true
+
+[[files]]
+file = "mods/megane.toml"
+metafile = true
+
+[[files]]
+file = "mods/mmmmmmmmmmmm.toml"
+metafile = true
+
+[[files]]
+file = "mods/mo-structures.toml"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.toml"
+metafile = true
+
+[[files]]
+file = "mods/mouse-wheelie.toml"
+metafile = true
+
+[[files]]
+file = "mods/ninjaphenixs-container-library.toml"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.toml"
+metafile = true
+
+[[files]]
+file = "mods/patchouli-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/pehkui.toml"
+metafile = true
+
+[[files]]
+file = "mods/pling.toml"
+metafile = true
+
+[[files]]
+file = "mods/reborncore.toml"
+metafile = true
+
+[[files]]
+file = "mods/repurposed-structures-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/rhino.toml"
+metafile = true
+
+[[files]]
+file = "mods/roughly-enough-items.toml"
+metafile = true
+
+[[files]]
+file = "mods/roughly-enough-resources.toml"
+metafile = true
+
+[[files]]
+file = "mods/shulkerboxtooltip.toml"
+metafile = true
+
+[[files]]
+file = "mods/slight-gui-modifications.toml"
+metafile = true
+
+[[files]]
+file = "mods/slotlock.toml"
+metafile = true
+
+[[files]]
+file = "mods/smoother-bedrock.toml"
+metafile = true
+
+[[files]]
+file = "mods/spectrum.toml"
+metafile = true
+
+[[files]]
+file = "mods/staff-of-building.toml"
+metafile = true
+
+[[files]]
+file = "mods/techreborn.toml"
+metafile = true
+
+[[files]]
+file = "mods/terrarian-slimes.toml"
+metafile = true
+
+[[files]]
+file = "mods/textile-backup.toml"
+metafile = true
+
+[[files]]
+file = "mods/tooltipfix.toml"
+metafile = true
+
+[[files]]
+file = "mods/trap-expansion-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/trinkets-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/vanilla-hammers.toml"
+metafile = true
+
+[[files]]
+file = "mods/wireless-networks.toml"
+metafile = true
+
+[[files]]
+file = "mods/wmitaf.toml"
+metafile = true
+
+[[files]]
+file = "mods/wthit.toml"
+metafile = true
+
+[[files]]
+file = "mods/yosbr.toml"
+metafile = true
+
+[[files]]
+file = "mods/youre-in-grave-danger.toml"
+metafile = true

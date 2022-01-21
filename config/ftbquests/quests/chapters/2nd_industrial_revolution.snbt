@@ -1,0 +1,479 @@
+{
+	id: "6303CC22DE16CFCD"
+	group: "613832B2967BEC39"
+	order_index: 0
+	filename: "2nd_industrial_revolution"
+	title: "2nd Industrial Revolution"
+	icon: "indrev:enriched_nikolite_dust"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "028D2E57B4C209B4"
+			tasks: [{
+				id: "3AC20895E387CCD0"
+				type: "item"
+				item: "indrev:enriched_nikolite_dust"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["028D2E57B4C209B4"]
+			id: "743E4D4080B5347A"
+			tasks: [{
+				id: "4C14DCAF45191F11"
+				type: "item"
+				item: "indrev:circuit_mk3"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["743E4D4080B5347A"]
+			id: "40494EC4F15C0E75"
+			tasks: [{
+				id: "1FF047789C6F3787"
+				type: "item"
+				item: "indrev:tier_upgrade_mk3"
+			}]
+		}
+		{
+			title: "An Even Brighter Future"
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["40494EC4F15C0E75"]
+			id: "4088A9B85512505E"
+			tasks: [{
+				id: "67B55A70DF45F276"
+				type: "item"
+				item: "indrev:solar_generator_mk3"
+			}]
+		}
+		{
+			icon: "indrev:biomass_generator_mk3"
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["4088A9B85512505E"]
+			id: "2C07917DBF5CEE0E"
+			tasks: [
+				{
+					id: "301A184F381ECD11"
+					type: "item"
+					item: "indrev:biomass_generator_mk3"
+				}
+				{
+					id: "699D1E5D96B848B4"
+					type: "item"
+					item: "indrev:recycler_mk2"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["40494EC4F15C0E75"]
+			optional: true
+			id: "2BC51567E4F5A6BB"
+			tasks: [{
+				id: "02E51AC7FB78F5A4"
+				type: "item"
+				item: "indrev:buffer_enhancer"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			dependencies: ["4088A9B85512505E"]
+			id: "0965B37D3841C6B8"
+			tasks: [{
+				id: "4B2545FC6B0B7860"
+				type: "item"
+				item: "indrev:cable_mk3"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			dependencies: [
+				"34D5212B726FB4EE"
+				"0965B37D3841C6B8"
+			]
+			id: "00A98973D7D9F411"
+			tasks: [{
+				id: "755EC669A262CA22"
+				type: "item"
+				item: "indrev:cable_mk4"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			dependencies: ["0965B37D3841C6B8"]
+			id: "565B0F65C913EB56"
+			tasks: [{
+				id: "7513C8B947F633BB"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk3"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.0d
+			dependencies: [
+				"6CC85D8AC2BFA45D"
+				"565B0F65C913EB56"
+			]
+			id: "180D45A3135B6084"
+			tasks: [{
+				id: "1D22C9395D8E9A08"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk4"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			dependencies: ["2C07917DBF5CEE0E"]
+			id: "3BBBDBC5EDEA3156"
+			tasks: [{
+				id: "34D5212B726FB4EE"
+				type: "item"
+				item: "indrev:enriched_nikolite_ingot"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 0.0d
+			dependencies: ["3BBBDBC5EDEA3156"]
+			id: "048C97D153DB3E39"
+			tasks: [{
+				id: "6CC85D8AC2BFA45D"
+				type: "item"
+				item: "indrev:circuit_mk4"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 0.0d
+			dependencies: ["048C97D153DB3E39"]
+			id: "3CE914602F275FF1"
+			tasks: [{
+				id: "3239A8A46289CA1C"
+				type: "item"
+				item: "indrev:tier_upgrade_mk4"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -2.5d
+			dependencies: ["048C97D153DB3E39"]
+			id: "015A717366717A85"
+			tasks: [
+				{
+					id: "0DF4698C16D157D2"
+					type: "item"
+					item: "indrev:smelter_mk4"
+				}
+				{
+					id: "7BC4F29BD8C55FE6"
+					type: "item"
+					item: "indrev:condenser_mk4"
+				}
+			]
+		}
+		{
+			icon: "indrev:pulverizer_factory_mk4"
+			x: 22.5d
+			y: -5.0d
+			dependencies: ["19F3863F66F7FCB1"]
+			id: "605723585A6B82DE"
+			tasks: [
+				{
+					id: "066A1FE8858466D4"
+					type: "item"
+					item: "indrev:pulverizer_factory_mk4"
+				}
+				{
+					id: "3D996357EC4196A8"
+					type: "item"
+					item: "indrev:frame"
+					count: 9L
+				}
+				{
+					id: "7DB3C34C9AD3342F"
+					type: "item"
+					item: "indrev:silo"
+					count: 6L
+				}
+				{
+					id: "26EE6C17AC3D43C2"
+					type: "item"
+					item: "indrev:intake"
+					count: 3L
+				}
+				{
+					id: "418C471F3084B9A5"
+					type: "item"
+					item: "indrev:duct"
+					count: 3L
+				}
+				{
+					id: "6EBECF9E5A228B7F"
+					type: "item"
+					item: "indrev:cabinet"
+					count: 2L
+				}
+				{
+					id: "29DD501C52165B08"
+					type: "item"
+					item: "indrev:warning_strobe"
+				}
+				{
+					id: "1E82F0F0C5A9EC1A"
+					type: "item"
+					item: "indrev:controller"
+				}
+			]
+		}
+		{
+			icon: "indrev:electric_furnace_factory_mk4"
+			x: 22.5d
+			y: -2.5d
+			dependencies: ["19F3863F66F7FCB1"]
+			id: "6108543C0CA2925C"
+			tasks: [
+				{
+					id: "0FDB15D58E41F54E"
+					type: "item"
+					item: "indrev:electric_furnace_factory_mk4"
+				}
+				{
+					id: "0DA87C272A837268"
+					type: "item"
+					item: "indrev:frame"
+					count: 9L
+				}
+				{
+					id: "5517EF739607E422"
+					type: "item"
+					item: "indrev:silo"
+					count: 6L
+				}
+				{
+					id: "6944AE2B71BFCB32"
+					type: "item"
+					item: "indrev:intake"
+					count: 3L
+				}
+				{
+					id: "4E493E3C804067BE"
+					type: "item"
+					item: "indrev:duct"
+					count: 3L
+				}
+				{
+					id: "78398022990ABF0B"
+					type: "item"
+					item: "indrev:cabinet"
+					count: 2L
+				}
+				{
+					id: "0E2B54453A879BF2"
+					type: "item"
+					item: "indrev:warning_strobe"
+				}
+				{
+					id: "0CBC674DDB9BDD02"
+					type: "item"
+					item: "indrev:controller"
+				}
+			]
+		}
+		{
+			icon: "indrev:compressor_factory_mk4"
+			x: 22.5d
+			y: 2.5d
+			dependencies: ["19F3863F66F7FCB1"]
+			id: "2E2FD9FC0B7C5E54"
+			tasks: [
+				{
+					id: "4C37358B755EEC37"
+					type: "item"
+					item: "indrev:compressor_factory_mk4"
+				}
+				{
+					id: "63EDB376F521BA51"
+					type: "item"
+					item: "indrev:frame"
+					count: 9L
+				}
+				{
+					id: "78B0DF17CE49D66B"
+					type: "item"
+					item: "indrev:silo"
+					count: 6L
+				}
+				{
+					id: "2B67955835970394"
+					type: "item"
+					item: "indrev:intake"
+					count: 3L
+				}
+				{
+					id: "2BC0B60FF1621B6F"
+					type: "item"
+					item: "indrev:duct"
+					count: 3L
+				}
+				{
+					id: "44C8ED1986DD95AE"
+					type: "item"
+					item: "indrev:cabinet"
+					count: 2L
+				}
+				{
+					id: "6AE47C197C97A2E5"
+					type: "item"
+					item: "indrev:warning_strobe"
+				}
+				{
+					id: "5DB3B8CF9A3FC2A7"
+					type: "item"
+					item: "indrev:controller"
+				}
+			]
+		}
+		{
+			icon: "indrev:solid_infuser_factory_mk4"
+			x: 22.5d
+			y: 5.0d
+			dependencies: ["19F3863F66F7FCB1"]
+			id: "1277786FCF841B99"
+			tasks: [
+				{
+					id: "7E937CF37FBD5EC6"
+					type: "item"
+					item: "indrev:frame"
+					count: 9L
+				}
+				{
+					id: "4B2C7ECEE88646BA"
+					type: "item"
+					item: "indrev:silo"
+					count: 6L
+				}
+				{
+					id: "1980218BE8815398"
+					type: "item"
+					item: "indrev:intake"
+					count: 3L
+				}
+				{
+					id: "20F829EBE0898250"
+					type: "item"
+					item: "indrev:duct"
+					count: 3L
+				}
+				{
+					id: "158BED815BDC8100"
+					type: "item"
+					item: "indrev:cabinet"
+					count: 2L
+				}
+				{
+					id: "477647C58217A45E"
+					type: "item"
+					item: "indrev:warning_strobe"
+				}
+				{
+					id: "4A6D9A9C864227CD"
+					type: "item"
+					item: "indrev:controller"
+				}
+				{
+					id: "79A50CBD8A4E14CA"
+					type: "item"
+					item: "indrev:solid_infuser_factory_mk4"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["743E4D4080B5347A"]
+			id: "4443445D31940A3D"
+			tasks: [{
+				id: "5151B9162CB2C631"
+				type: "item"
+				item: "indrev:mining_drill_mk3"
+			}]
+		}
+		{
+			icon: "indrev:heat_generator_mk4"
+			x: 20.0d
+			y: 0.0d
+			dependencies: ["3CE914602F275FF1"]
+			id: "19F3863F66F7FCB1"
+			tasks: [
+				{
+					id: "555B3EAF2B709A9D"
+					type: "item"
+					item: "indrev:heat_generator_mk4"
+				}
+				{
+					id: "5886416380E20D30"
+					type: "item"
+					item: "indrev:pump_mk1"
+				}
+			]
+		}
+		{
+			icon: "indrev:mining_rig_mk4"
+			x: 25.0d
+			y: 0.0d
+			shape: "octagon"
+			dependencies: [
+				"605723585A6B82DE"
+				"6108543C0CA2925C"
+				"2E2FD9FC0B7C5E54"
+				"1277786FCF841B99"
+			]
+			size: 1.5d
+			id: "2D727A3682EC47E7"
+			tasks: [
+				{
+					id: "645D43DCB88B7402"
+					type: "item"
+					item: "indrev:mining_rig_mk4"
+				}
+				{
+					id: "25711892E8E2B80A"
+					type: "item"
+					item: "indrev:drill_bottom"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "0672072B47AADCF5"
+					type: "item"
+					item: {
+						id: "indrev:iron_drill_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "117665291A58D9AB"
+					type: "item"
+					item: "indrev:chunk_scanner"
+				}
+			]
+		}
+	]
+}

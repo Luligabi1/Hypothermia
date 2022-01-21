@@ -1,0 +1,330 @@
+{
+	id: "42AA5408C4CB52E7"
+	group: "7C8A65D35C538092"
+	order_index: 1
+	filename: "deeply_learning_mobs"
+	title: "Deeply Learning Mobs"
+	icon: "dml-refabricated:glitch_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "67C8D95180E61A49"
+			tasks: [{
+				id: "1BEA66DBDAD01ADF"
+				type: "item"
+				item: "dml-refabricated:soot_redstone"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["67C8D95180E61A49"]
+			id: "518C84A80CDA1A84"
+			tasks: [{
+				id: "16C89DD0FC48EFDA"
+				type: "item"
+				item: "dml-refabricated:data_model"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["518C84A80CDA1A84"]
+			id: "15ECC3BDCBF2D04D"
+			tasks: [{
+				id: "19F9BB8AC7B71D7B"
+				type: "item"
+				item: "dml-refabricated:deep_learner"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			dependencies: ["15ECC3BDCBF2D04D"]
+			id: "05B75FFB63E160C2"
+			tasks: [{
+				id: "791BE0470D08BFBD"
+				type: "item"
+				item: {
+					id: "dml-refabricated:data_model_overworld"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			dependencies: ["05B75FFB63E160C2"]
+			id: "37395CD7B1E41C56"
+			tasks: [{
+				id: "0BA633A1AF86B085"
+				type: "item"
+				item: {
+					id: "dml-refabricated:data_model_zombie"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 2.5d
+			dependencies: ["37395CD7B1E41C56"]
+			id: "688B90BD301DE903"
+			tasks: [{
+				id: "6F17FE02D650797A"
+				type: "item"
+				item: {
+					id: "dml-refabricated:data_model_skeleton"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 2.5d
+			dependencies: ["688B90BD301DE903"]
+			id: "762A996C4743832F"
+			tasks: [{
+				id: "4F8AB850833A4B35"
+				type: "item"
+				item: {
+					id: "dml-refabricated:data_model_nether"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: 2.5d
+			dependencies: ["762A996C4743832F"]
+			id: "68842809BA5932E8"
+			tasks: [{
+				id: "1618A22C617E3620"
+				type: "item"
+				item: {
+					id: "dml-refabricated:data_model_slimy"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 20.0d
+			y: 2.5d
+			dependencies: ["68842809BA5932E8"]
+			id: "50A63CDA39A7E64A"
+			tasks: [{
+				id: "65A70EF0EB897BF7"
+				type: "item"
+				item: {
+					id: "dml-refabricated:data_model_ghost"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 22.5d
+			y: 2.5d
+			dependencies: ["50A63CDA39A7E64A"]
+			id: "6BDDC084C933B61E"
+			tasks: [{
+				id: "46DC368B0B55B212"
+				type: "item"
+				item: {
+					id: "dml-refabricated:data_model_end"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 25.0d
+			y: 0.0d
+			dependencies: ["15ECC3BDCBF2D04D"]
+			id: "54077524ABCA541C"
+			tasks: [
+				{
+					id: "68D47F59C7B4309F"
+					type: "item"
+					item: {
+						id: "dml-refabricated:trial_key"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "2F8866B8B93FA35E"
+					type: "item"
+					item: "dml-refabricated:trial_keystone"
+				}
+			]
+		}
+		{
+			x: 27.5d
+			y: 0.0d
+			dependencies: ["54077524ABCA541C"]
+			id: "1A4E843BCC9FD909"
+			tasks: [{
+				id: "49934EEBB9D01B91"
+				type: "kill"
+				entity: "dml-refabricated:system_glitch"
+				value: 1L
+			}]
+		}
+		{
+			title: "Loot Fabrication"
+			x: 30.0d
+			y: 0.0d
+			description: ["Now here's where all your efforts will pay off: Depending on the category of the Data Model used to bound the Trial's trial key, you'll earn different types of Pristine Matter. Each type will generate different types of loot when inserted on the Loot Fabricator, some of which might not be obtainable in any other way."]
+			dependencies: ["1A4E843BCC9FD909"]
+			id: "4D10736C97226DF9"
+			tasks: [{
+				id: "5449969DB0FD7142"
+				type: "item"
+				item: "dml-refabricated:loot_fabricator"
+			}]
+			rewards: [{
+				id: "1532BEC9DA8F4593"
+				type: "choice"
+				table_id: 7619829824372270350L
+			}]
+		}
+		{
+			x: 32.5d
+			y: 0.0d
+			description: ["For the next steps, you'll need Glitch Ingots. They're made by combining Netherite and *inhales* Physically-Condensed Matrix Fragments *exhales*. Quite the mouthful, eh? Well, to obtain... that, you'll need to win trials at superior tiers, such as Superior and Self-Aware."]
+			dependencies: ["4D10736C97226DF9"]
+			id: "32795EBCF7D94EDC"
+			tasks: [{
+				id: "190158E657C0376B"
+				type: "item"
+				item: "dml-refabricated:glitch_ingot"
+			}]
+		}
+		{
+			x: 35.0d
+			y: 2.5d
+			description: ["With your Glitch Ingots, you may now upgrade a Netherite Armor to a Glitch Armor. Glitch Armor has the advantage of being modular and upgradeable: Right-Click any piece of the armor and you'll be able to insert a Data Model inside it and, depending on tier and category, you'll receive different buffs to the armor! WARNING: Only one piece of the armor is required to progress."]
+			dependencies: ["32795EBCF7D94EDC"]
+			id: "5D8F5A3490D75541"
+			tasks: [{
+				id: "7C24E364416B3087"
+				type: "item"
+				item: {
+					id: "dml-refabricated:glitch_leggings"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "41A943EDA715BDE9"
+				type: "random"
+				table_id: 7619829824372270350L
+			}]
+		}
+		{
+			x: 35.0d
+			y: 5.0d
+			description: ["With your Glitch Ingots, you may now upgrade a Netherite Armor to a Glitch Armor. Glitch Armor has the advantage of being modular and upgradeable: Right-Click any piece of the armor and you'll be able to insert a Data Model inside it and, depending on tier and category, you'll receive different buffs to the armor! WARNING: Only one piece of the armor is required to progress."]
+			dependencies: ["32795EBCF7D94EDC"]
+			id: "4C4D9767AABC7612"
+			tasks: [{
+				id: "6DDDE2EE075638E3"
+				type: "item"
+				item: {
+					id: "dml-refabricated:glitch_boots"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "57732A46999200CA"
+				type: "random"
+				table_id: 7619829824372270350L
+			}]
+		}
+		{
+			x: 35.0d
+			y: -2.5d
+			description: ["With your Glitch Ingots, you may now upgrade a Netherite Armor to a Glitch Armor. Glitch Armor has the advantage of being modular and upgradeable: Right-Click any piece of the armor and you'll be able to insert a Data Model inside it and, depending on tier and category, you'll receive different buffs to the armor! WARNING: Only one piece of the armor is required to progress."]
+			dependencies: ["32795EBCF7D94EDC"]
+			id: "4B0B56A8050E5B48"
+			tasks: [{
+				id: "425128D8C6E7CF5E"
+				type: "item"
+				item: {
+					id: "dml-refabricated:glitch_chestplate"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7F8A38053B36EF68"
+				type: "random"
+				table_id: 7619829824372270350L
+			}]
+		}
+		{
+			x: 35.0d
+			y: -5.0d
+			description: ["With your Glitch Ingots, you may now upgrade a Netherite Armor to a Glitch Armor. Glitch Armor has the advantage of being modular and upgradeable: Right-Click any piece of the armor and you'll be able to insert a Data Model inside it and, depending on tier and category, you'll receive different buffs to the armor! WARNING: Only one piece of the armor is required to progress."]
+			dependencies: ["32795EBCF7D94EDC"]
+			id: "68FA5CF2F2421959"
+			tasks: [{
+				id: "6EE39284648BEEEF"
+				type: "item"
+				item: {
+					id: "dml-refabricated:glitch_helmet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0134B19DCF2B8DB5"
+				type: "random"
+				table_id: 7619829824372270350L
+			}]
+		}
+		{
+			x: 37.5d
+			y: 0.0d
+			description: ["By default, the Glitch Armor is pretty good, but it can get better: With a Matter Condenser, you're able to condense any kind of Pristine Matter into your Glitch Armor, upgrading all of its stats."]
+			dependencies: [
+				"68FA5CF2F2421959"
+				"4B0B56A8050E5B48"
+				"5D8F5A3490D75541"
+				"4C4D9767AABC7612"
+			]
+			dependency_requirement: "one_completed"
+			id: "7E066DCF36261640"
+			tasks: [{
+				id: "71952DC81A99FF72"
+				type: "item"
+				item: "dml-refabricated:matter_condenser"
+			}]
+		}
+		{
+			icon: "dmlsimulacrum:simulation_chamber"
+			x: 40.0d
+			y: 0.0d
+			shape: "octagon"
+			description: ["The Simulation Chamber allows you to run Simulations of battle with mobs, requiring a Data Model, Polymer Clay and Energy. Simulations can output 2 types of item: Matter and Pristine Matter.                                                                                       Matter is a abstract essence of the dimension your mob's Data Model comes from. This matter can be transformed into another items from its dimension or consumed for Experience.                                                                  You already know what Pristine Matter is. What's important to know is that it's a very rare output for Simulations, with the success rate increasing depending on the used Data Model's tier."]
+			dependencies: ["7E066DCF36261640"]
+			size: 1.5d
+			id: "2D566E8510B7DAF0"
+			tasks: [{
+				id: "0316A7D3FFE1C170"
+				type: "item"
+				item: "dmlsimulacrum:simulation_chamber"
+			}]
+		}
+	]
+}

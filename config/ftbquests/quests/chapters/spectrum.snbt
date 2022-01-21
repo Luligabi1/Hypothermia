@@ -1,0 +1,10 @@
+{
+	id: "51C74B6F8513BAFB"
+	group: "1ECF94BB6B8B34D0"
+	order_index: 0
+	filename: "spectrum"
+	title: "A Colorful Spectrum"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

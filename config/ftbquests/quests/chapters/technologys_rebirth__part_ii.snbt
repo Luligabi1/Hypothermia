@@ -1,0 +1,10 @@
+{
+	id: "70A6AFA0034597F7"
+	group: "613832B2967BEC39"
+	order_index: 1
+	filename: "technologys_rebirth__part_ii"
+	title: "Technology's Rebirth - Part II"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

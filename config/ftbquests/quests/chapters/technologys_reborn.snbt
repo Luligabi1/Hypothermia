@@ -1,0 +1,288 @@
+{
+	id: "79A68364C24EC0EE"
+	group: "6E81D4649406C6F9"
+	order_index: 1
+	filename: "technologys_reborn"
+	title: "Technology's Rebirth - Part I"
+	icon: "techreborn:rubber_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "36B68A2D9CDD89AD"
+			tasks: [{
+				id: "62D00E09FC1E857F"
+				type: "item"
+				item: {
+					id: "techreborn:treetap"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["36B68A2D9CDD89AD"]
+			id: "480D02030DCD8C7D"
+			tasks: [{
+				id: "03A099A40A3F0699"
+				type: "item"
+				item: "techreborn:solid_fuel_generator"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["480D02030DCD8C7D"]
+			id: "6C4E46A2062EE85E"
+			tasks: [{
+				id: "524A0FAF92B65BDA"
+				type: "item"
+				item: "techreborn:grinder"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["6C4E46A2062EE85E"]
+			id: "2C9BA00C383B6980"
+			tasks: [{
+				id: "439010BB1B66B84B"
+				type: "item"
+				item: "techreborn:electric_furnace"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["2C9BA00C383B6980"]
+			id: "245E868BDA13F2D8"
+			tasks: [{
+				id: "0D893578217106E9"
+				type: "item"
+				item: "techreborn:compressor"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			dependencies: ["245E868BDA13F2D8"]
+			id: "24DD7FD3F5286D4D"
+			tasks: [{
+				id: "688B2C7AD10A8025"
+				type: "item"
+				item: "techreborn:extractor"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 0.0d
+			dependencies: ["24DD7FD3F5286D4D"]
+			id: "38FE34D8A8E373D4"
+			tasks: [{
+				id: "6794FA7B8B4DC14B"
+				type: "item"
+				item: "techreborn:alloy_smelter"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 0.0d
+			dependencies: ["41A121C524257561"]
+			id: "760A3E63CCA18909"
+			tasks: [{
+				id: "0882DF1B730397B1"
+				type: "item"
+				item: "techreborn:industrial_centrifuge"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			dependencies: ["6C4E46A2062EE85E"]
+			id: "655E698ABC7D361B"
+			tasks: [{
+				id: "31CB7D5C16855883"
+				type: "item"
+				item: "techreborn:tin_cable"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			dependencies: ["655E698ABC7D361B"]
+			id: "1FE60C4AF22F819E"
+			tasks: [{
+				id: "43F8C5DBB2B3F028"
+				type: "item"
+				item: "techreborn:low_voltage_su"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -2.5d
+			dependencies: ["24DD7FD3F5286D4D"]
+			id: "7791C32B07233C74"
+			tasks: [{
+				id: "6AF5F77F6125C396"
+				type: "item"
+				item: "techreborn:wire_mill"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["480D02030DCD8C7D"]
+			id: "2375E3E02F30192B"
+			tasks: [{
+				id: "3605950E1D9DBB45"
+				type: "item"
+				item: "techreborn:basic_solar_panel"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			dependencies: ["2375E3E02F30192B"]
+			id: "600F3016134DCBAE"
+			tasks: [{
+				id: "3DC089CE05CD5F0D"
+				type: "item"
+				item: "techreborn:water_mill"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			dependencies: ["600F3016134DCBAE"]
+			id: "53D73A75E591A3AB"
+			tasks: [{
+				id: "7249AC41242EE773"
+				type: "item"
+				item: "techreborn:advanced_solar_panel"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 2.5d
+			id: "2B8E0697799472C8"
+			tasks: [{
+				id: "55774235D0961315"
+				type: "item"
+				item: {
+					id: "techreborn:basic_drill"
+					Count: 1b
+					tag: {
+						energy: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: 5.0d
+			id: "4004D6DC66401536"
+			tasks: [{
+				id: "1312E02169A9DBD5"
+				type: "item"
+				item: {
+					id: "techreborn:basic_chainsaw"
+					Count: 1b
+					tag: {
+						energy: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 20.0d
+			y: 5.0d
+			dependencies: ["4004D6DC66401536"]
+			id: "11ADADF6450955E7"
+			tasks: [{
+				id: "3A4102A2E1436E3C"
+				type: "item"
+				item: {
+					id: "techreborn:advanced_chainsaw"
+					Count: 1b
+					tag: {
+						energy: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 20.0d
+			y: 2.5d
+			dependencies: ["2B8E0697799472C8"]
+			id: "12B79023B4669E28"
+			tasks: [{
+				id: "1ECC5A490254AD90"
+				type: "item"
+				item: {
+					id: "techreborn:advanced_drill"
+					Count: 1b
+					tag: {
+						energy: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: 7.5d
+			id: "1610697579185BDF"
+			tasks: [{
+				id: "7E14BB535A641343"
+				type: "item"
+				item: {
+					id: "techreborn:electric_treetap"
+					Count: 1b
+					tag: {
+						energy: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 22.5d
+			y: 0.0d
+			dependencies: ["760A3E63CCA18909"]
+			id: "0CAE098239562942"
+			tasks: [{
+				id: "1BE1C4B4A03D35FF"
+				type: "item"
+				item: "techreborn:industrial_grinder"
+			}]
+		}
+		{
+			x: 25.0d
+			y: 0.0d
+			shape: "octagon"
+			dependencies: ["6C4E46A2062EE85E"]
+			size: 1.5d
+			id: "50C2CEEB8D10D41B"
+			tasks: [{
+				id: "2E172BDBC58066A5"
+				type: "item"
+				item: "techreborn:industrial_blast_furnace"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 0.0d
+			dependencies: ["38FE34D8A8E373D4"]
+			id: "41A121C524257561"
+			tasks: [{
+				id: "4224B013E4DB89B1"
+				type: "item"
+				item: "techreborn:rolling_machine"
+			}]
+		}
+	]
+}

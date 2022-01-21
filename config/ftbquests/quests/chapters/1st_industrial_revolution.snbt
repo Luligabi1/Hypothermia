@@ -1,0 +1,395 @@
+{
+	id: "34A0B381B4FE7D66"
+	group: "6E81D4649406C6F9"
+	order_index: 0
+	filename: "1st_industrial_revolution"
+	title: "1st Industrial Revolution"
+	icon: "indrev:nikolite_dust"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Energetic dust"
+			x: 0.0d
+			y: 0.0d
+			description: ["To start the Industrial Revolution, you must get some nikolite dust. Nikolite dust is obtained via Nikolite Ores, that generate between Y level 0 and 16."]
+			id: "378911970134DE12"
+			tasks: [{
+				id: "6AB8A2CAF9F9F9DD"
+				type: "item"
+				item: "indrev:nikolite_dust"
+				count: 8L
+			}]
+			rewards: [{
+				id: "094455FA02296952"
+				type: "item"
+				item: {
+					id: "indrev:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: "indrev:coal_generator_mk1"
+			x: 2.5d
+			y: 0.0d
+			description: ["No Industrial Revolution can be made without energy! Your first energy source will be a Coal generator. Unfortunaly, its energy output is greatly reduced due to the cold weather, as is any generator based on heat or the Sun.                                                                             The Screwdriver is a tool used to configure your machine's sides for input, output and other options."]
+			dependencies: ["378911970134DE12"]
+			dependency_requirement: "one_completed"
+			id: "79D103FEEDF730D0"
+			tasks: [
+				{
+					id: "079CA873EFB29C96"
+					type: "item"
+					item: "indrev:coal_generator_mk1"
+				}
+				{
+					id: "48C59323A5C41E77"
+					type: "item"
+					item: "indrev:screwdriver"
+				}
+			]
+		}
+		{
+			icon: "indrev:electric_furnace_mk1"
+			x: 10.0d
+			y: 0.0d
+			description: ["Electric furnaces are regular furnaces, but using energy instead of coal. Try using the wrench you received in the previous quest to configure the items to be outputted to a chest or another machine!"]
+			dependencies: ["455F58B0882D24EC"]
+			id: "47E7071A83DAEB47"
+			tasks: [{
+				id: "513C618086A61F49"
+				type: "item"
+				item: "indrev:electric_furnace_mk1"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["1D8404F730424E80"]
+			id: "29DDC77489A20F38"
+			tasks: [{
+				id: "09550D8576CE7494"
+				type: "item"
+				item: "indrev:cable_mk1"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			hide_dependency_lines: false
+			dependencies: [
+				"29DDC77489A20F38"
+				"41FEDDD46DD54D89"
+			]
+			id: "1376D449E20993F5"
+			tasks: [{
+				id: "11B886811C4D687B"
+				type: "item"
+				item: "indrev:cable_mk2"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: ["Pulverizers are useful machines that can be used to double ore production. By placing an raw ore in it, you'll receive 2 dusts you can then melt into 2 ingots."]
+			dependencies: ["79D103FEEDF730D0"]
+			id: "1D8404F730424E80"
+			tasks: [{
+				id: "1A4D04C679CAACB3"
+				type: "item"
+				item: "indrev:pulverizer_mk1"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			dependencies: ["47E7071A83DAEB47"]
+			id: "67CCE12464585119"
+			tasks: [{
+				id: "50E903C1A2E417B3"
+				type: "item"
+				item: "indrev:solid_infuser_mk1"
+			}]
+		}
+		{
+			title: "Road to MK2"
+			x: 15.0d
+			y: 0.0d
+			dependencies: ["67CCE12464585119"]
+			id: "4A98FD855B42E2B6"
+			tasks: [{
+				id: "41FEDDD46DD54D89"
+				type: "item"
+				item: "indrev:nikolite_ingot"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 0.0d
+			description: ["MK2 circuits allow you to create MK2-exclusive machines and upgrades."]
+			dependencies: ["4A98FD855B42E2B6"]
+			id: "17107DB671D63CC7"
+			tasks: [{
+				id: "51E132B259D206FA"
+				type: "item"
+				item: "indrev:circuit_mk2"
+			}]
+		}
+		{
+			title: "MK2²"
+			x: 20.0d
+			y: 0.0d
+			subtitle: "Craft 2 MK2 upgrades"
+			description: ["Machine upgrades allows you to lower your machine's processing time. To upgrade a machine, right-click it with the upgrade."]
+			dependencies: ["17107DB671D63CC7"]
+			id: "1CFE6F6D21ED544C"
+			tasks: [{
+				id: "6A99D91F16D1673B"
+				type: "item"
+				item: "indrev:tier_upgrade_mk2"
+				count: 2L
+			}]
+			rewards: [{
+				id: "7A7A01FC572E1019"
+				type: "item"
+				item: "indrev:tier_upgrade_mk2"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			hide_dependency_lines: false
+			dependencies: ["29DDC77489A20F38"]
+			id: "4FEBB9672635D87C"
+			tasks: [{
+				id: "13287C66DE057B6F"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk1"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			dependencies: [
+				"4FEBB9672635D87C"
+				"51E132B259D206FA"
+			]
+			id: "4BD2EBF55100F544"
+			tasks: [{
+				id: "36E79AC4DFA8E7CD"
+				type: "item"
+				item: "indrev:lazuli_flux_container_mk2"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			dependencies: ["455F58B0882D24EC"]
+			id: "454C1E3597F4E504"
+			tasks: [{
+				id: "2FCC2B9B23950B9F"
+				type: "item"
+				item: {
+					id: "indrev:fan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["4FEBB9672635D87C"]
+			id: "353F65E1CB865D52"
+			tasks: [{
+				id: "283C277188A2E753"
+				type: "item"
+				item: "indrev:mining_drill_mk1"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 5.0d
+			dependencies: [
+				"353F65E1CB865D52"
+				"51E132B259D206FA"
+			]
+			optional: true
+			id: "2D5AEA2D412E1F2C"
+			tasks: [{
+				id: "18CE8504ECF1B420"
+				type: "item"
+				item: "indrev:mining_drill_mk2"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -5.0d
+			dependencies: ["454C1E3597F4E504"]
+			optional: true
+			id: "72C88EA8C7DB89BD"
+			tasks: [{
+				id: "1BF582CD636407AC"
+				type: "item"
+				item: "indrev:fluid_infuser_mk1"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -5.0d
+			dependencies: ["6D5ED5D182CCAA6B"]
+			optional: true
+			id: "7A66FB77157CEC5A"
+			tasks: [{
+				id: "44F7199297B117EF"
+				type: "item"
+				item: {
+					id: "indrev:cooler_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: -5.0d
+			description: ["Heatsinks are the best way to handle heating on your machines, by far. Keep in mind a cooler cell will be enough 99% of the cases, but this might be useful on a demanding auto-craftng system."]
+			dependencies: ["7A66FB77157CEC5A"]
+			optional: true
+			id: "4A2550EC42356EEF"
+			tasks: [{
+				id: "323DC4E6F0415D7E"
+				type: "item"
+				item: {
+					id: "indrev:heatsink"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "One Cool Bucket"
+			x: 12.5d
+			y: -5.0d
+			dependencies: ["72C88EA8C7DB89BD"]
+			optional: true
+			id: "6D5ED5D182CCAA6B"
+			tasks: [{
+				id: "417505D1029CFDA3"
+				type: "item"
+				item: "indrev:coolant_bucket"
+			}]
+		}
+		{
+			title: "Gotta go Fast!"
+			x: 22.5d
+			y: 0.0d
+			dependencies: ["1CFE6F6D21ED544C"]
+			dependency_requirement: "one_completed"
+			id: "098DF7A08917A386"
+			tasks: [{
+				id: "015376CC52046CA6"
+				type: "item"
+				item: "indrev:speed_enhancer"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -2.5d
+			dependencies: [
+				"47E7071A83DAEB47"
+				"028D2E57B4C209B4"
+			]
+			optional: true
+			id: "365CD4D5B78E3D81"
+			tasks: [{
+				id: "22F3F5FA5CE13962"
+				type: "item"
+				item: "indrev:blast_furnace_enhancer"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -2.5d
+			dependencies: ["365CD4D5B78E3D81"]
+			optional: true
+			id: "24ECE74CFD1A2361"
+			tasks: [{
+				id: "578D23F962F0F5F3"
+				type: "item"
+				item: "indrev:smoker_enhancer"
+			}]
+		}
+		{
+			title: "A Bright Future"
+			x: 25.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Craft a Solar Generator and conclude the 1st Industrial Revolution."
+			description: ["Congratulations, you finished the 1st Industrial Revolution!"]
+			dependencies: ["098DF7A08917A386"]
+			dependency_requirement: "one_started"
+			size: 1.5d
+			id: "41E6DCB8751E835E"
+			tasks: [{
+				id: "711850D1805C6217"
+				type: "item"
+				item: "indrev:solar_generator_mk1"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 2.5d
+			dependencies: ["67CCE12464585119"]
+			hide: true
+			optional: true
+			id: "01685A7371D2A646"
+			tasks: [{
+				id: "1DCC1F219BCAD756"
+				type: "item"
+				item: "indrev:chopper_mk1"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 2.5d
+			dependencies: ["01685A7371D2A646"]
+			optional: true
+			id: "06A8F8A5D34F7AC2"
+			tasks: [{
+				id: "6C55091426A0783F"
+				type: "item"
+				item: "indrev:farmer_mk1"
+			}]
+			rewards: [{
+				id: "19CE343B975B0462"
+				type: "item"
+				item: "seasons:greenhouse_glass"
+				count: 16
+			}]
+		}
+		{
+			title: "Compressing Matters"
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["1D8404F730424E80"]
+			id: "455F58B0882D24EC"
+			tasks: [{
+				id: "10A306BD69C8941B"
+				type: "item"
+				item: "indrev:compressor_mk1"
+			}]
+		}
+	]
+}

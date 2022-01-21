@@ -1,0 +1,13 @@
+name = "Repurposed Structures (Fabric)"
+filename = "repurposed_structures_fabric-3.3.1+1.18.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3614/154/repurposed_structures_fabric-3.3.1+1.18.1.jar"
+hash-format = "murmur2"
+hash = "3289147430"
+
+[update]
+[update.curseforge]
+file-id = 3614154
+project-id = 391366

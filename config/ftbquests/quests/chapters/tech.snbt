@@ -1,0 +1,10 @@
+{
+	id: "326E7690F5FA9BC4"
+	group: "0D9C65074384D358"
+	order_index: 1
+	filename: "tech"
+	title: "Technology's Reborn - Part III"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

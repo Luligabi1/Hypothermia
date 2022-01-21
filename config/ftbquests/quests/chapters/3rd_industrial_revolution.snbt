@@ -1,0 +1,341 @@
+{
+	id: "4A301124ED611057"
+	group: "0D9C65074384D358"
+	order_index: 0
+	filename: "3rd_industrial_revolution"
+	title: "3rd Industrial Revolution"
+	icon: "indrev:modular_core_activated"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "indrev:modular_core"
+			x: 0.0d
+			y: 0.0d
+			description: ["The 3rd and final Industrial Revolution covers the concept of Modularity: Weapons, Tools and Armor than can be later upgraded to your heart's content, adding only what you consider useful. The first step into modularity is to craft a Core of Modularity."]
+			id: "772C7D6CDAC0683C"
+			tasks: [
+				{
+					id: "47B31C0411477455"
+					type: "item"
+					item: "indrev:modular_core"
+				}
+				{
+					id: "6586AEA4BD2A1337"
+					type: "item"
+					item: "indrev:capsule"
+				}
+				{
+					id: "57C059089206177D"
+					type: "item"
+					item: "indrev:laser_emitter_mk4"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["772C7D6CDAC0683C"]
+			id: "7370DA65CE9789AF"
+			tasks: [{
+				id: "5499C806474D7345"
+				type: "item"
+				item: "indrev:modular_core_activated"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["7370DA65CE9789AF"]
+			id: "0CFA911C751CA2FB"
+			tasks: [{
+				id: "7CBEEDBDA47F009E"
+				type: "item"
+				item: "indrev:modular_armor_chest"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["7370DA65CE9789AF"]
+			id: "4AE18F4E5531EA69"
+			tasks: [{
+				id: "4F5D189EFF7B1ACB"
+				type: "item"
+				item: "indrev:modular_armor_legs"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			dependencies: ["7370DA65CE9789AF"]
+			id: "690B1C0B3BC4841A"
+			tasks: [{
+				id: "3EAE518B735A26B0"
+				type: "item"
+				item: "indrev:modular_armor_boots"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			dependencies: ["7370DA65CE9789AF"]
+			id: "1B7837F69B921C84"
+			tasks: [{
+				id: "46D9888F4EF64E22"
+				type: "item"
+				item: "indrev:modular_armor_helmet"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: [
+				"1B7837F69B921C84"
+				"0CFA911C751CA2FB"
+				"4AE18F4E5531EA69"
+				"690B1C0B3BC4841A"
+			]
+			dependency_requirement: "one_completed"
+			id: "0B97A05E8727033C"
+			tasks: [{
+				id: "0203E081EE70EF30"
+				type: "item"
+				item: "indrev:modular_workbench_mk4"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			dependencies: ["0B97A05E8727033C"]
+			id: "04DA194F3128A8BE"
+			tasks: [{
+				id: "585281C5B2BDF4A2"
+				type: "item"
+				item: "indrev:module_protection"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 2.5d
+			dependencies: ["50E9DB59D729858B"]
+			id: "7885BBCCD91796CF"
+			tasks: [{
+				id: "10C7EBFAABE3B2A8"
+				type: "item"
+				item: "indrev:module_speed"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 5.0d
+			dependencies: ["7885BBCCD91796CF"]
+			id: "6641199A78B544A9"
+			tasks: [{
+				id: "188028500928E9B0"
+				type: "item"
+				item: "indrev:module_jump_boost"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 2.5d
+			dependencies: ["7885BBCCD91796CF"]
+			id: "5FA3ABEE2D17A208"
+			tasks: [{
+				id: "17F94769DB495781"
+				type: "item"
+				item: "indrev:module_night_vision"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 2.5d
+			dependencies: ["5FA3ABEE2D17A208"]
+			id: "3038EBDA2B518077"
+			tasks: [{
+				id: "0694460278222EAB"
+				type: "item"
+				item: "indrev:module_breathing"
+			}]
+		}
+		{
+			x: 22.5d
+			y: 2.5d
+			dependencies: ["3038EBDA2B518077"]
+			id: "74C5582681E431DA"
+			tasks: [{
+				id: "77C32633AB38D0F7"
+				type: "item"
+				item: "indrev:module_feather_falling"
+			}]
+		}
+		{
+			x: 25.0d
+			y: 2.5d
+			dependencies: ["74C5582681E431DA"]
+			id: "4ABEA99E5CFF3D99"
+			tasks: [{
+				id: "4C6B76B6916D404C"
+				type: "item"
+				item: "indrev:module_auto_feeder"
+			}]
+		}
+		{
+			x: 27.5d
+			y: 2.5d
+			dependencies: ["4ABEA99E5CFF3D99"]
+			hide_text_until_complete: false
+			id: "57F07C88F1868885"
+			tasks: [{
+				id: "7DE302906A4B35CE"
+				type: "item"
+				item: "indrev:module_charger"
+			}]
+		}
+		{
+			title: "Gold Trickster"
+			x: 30.0d
+			y: 2.5d
+			description: [""]
+			dependencies: ["57F07C88F1868885"]
+			id: "7BFC377648E292A5"
+			tasks: [{
+				id: "3EB7A9AC02BA90A5"
+				type: "item"
+				item: "indrev:module_piglin_tricker"
+			}]
+		}
+		{
+			x: 27.5d
+			y: 5.0d
+			dependencies: ["57F07C88F1868885"]
+			id: "01C5F93E0016FECA"
+			tasks: [{
+				id: "3DFA639B4E1E92D3"
+				type: "item"
+				item: "indrev:module_solar_panel"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 2.5d
+			dependencies: ["04DA194F3128A8BE"]
+			id: "50E9DB59D729858B"
+			tasks: [{
+				id: "579A42AD084E903D"
+				type: "item"
+				item: "indrev:module_fire_resistance"
+			}]
+		}
+		{
+			x: 32.5d
+			y: 0.0d
+			dependencies: ["0B97A05E8727033C"]
+			id: "3B9FB5A57CC547C7"
+			tasks: [{
+				id: "203B77314E9FED77"
+				type: "item"
+				item: "indrev:mining_drill_mk4"
+			}]
+		}
+		{
+			x: 35.0d
+			y: -2.5d
+			dependencies: ["3B9FB5A57CC547C7"]
+			id: "0E2C3DC8ACB96887"
+			tasks: [{
+				id: "5B84D0BBDCDABEE0"
+				type: "item"
+				item: "indrev:module_efficiency"
+			}]
+		}
+		{
+			x: 42.5d
+			y: -2.5d
+			dependencies: ["1CFAFCF8418C484B"]
+			id: "7796553F5666B207"
+			tasks: [{
+				id: "1C2F89438146938F"
+				type: "item"
+				item: "indrev:module_fortune"
+			}]
+		}
+		{
+			x: 37.5d
+			y: -2.5d
+			dependencies: ["0E2C3DC8ACB96887"]
+			id: "5846BBD3C2FF6358"
+			tasks: [{
+				id: "6F578961FE2C323B"
+				type: "item"
+				item: "indrev:module_range"
+			}]
+		}
+		{
+			x: 40.0d
+			y: -2.5d
+			dependencies: ["5846BBD3C2FF6358"]
+			id: "1CFAFCF8418C484B"
+			tasks: [{
+				id: "3380FC0882D7D89C"
+				type: "item"
+				item: "indrev:module_silk_touch"
+			}]
+		}
+		{
+			title: "Gaming Power"
+			x: 45.0d
+			y: 0.0d
+			dependencies: ["3B9FB5A57CC547C7"]
+			id: "6247090A2F26645D"
+			tasks: [{
+				id: "237EBE88A6AEE4BE"
+				type: "item"
+				item: {
+					id: "indrev:gamer_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 47.5d
+			y: 2.5d
+			dependencies: ["6247090A2F26645D"]
+			id: "3B95EF5E54FE6E7B"
+			tasks: [{
+				id: "52D69C962FF17B44"
+				type: "item"
+				item: "indrev:module_sharpness"
+			}]
+		}
+		{
+			x: 50.0d
+			y: 2.5d
+			dependencies: ["3B95EF5E54FE6E7B"]
+			id: "591BD480F5EA02ED"
+			tasks: [{
+				id: "3B8E1BF07A269BBF"
+				type: "item"
+				item: "indrev:module_looting"
+			}]
+		}
+		{
+			title: "A Burning Passion"
+			x: 52.5d
+			y: 2.5d
+			dependencies: ["591BD480F5EA02ED"]
+			id: "32DFEB5BAFE9FBA5"
+			tasks: [{
+				id: "7472B21D74EC21A9"
+				type: "item"
+				item: "indrev:module_fire_aspect"
+			}]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+name = "FTB Chunks (Fabric)"
+filename = "ftb-chunks-fabric-1801.3.3-build.119.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3606/386/ftb-chunks-fabric-1801.3.3-build.119.jar"
+hash-format = "murmur2"
+hash = "2797383177"
+
+[update]
+[update.curseforge]
+file-id = 3606386
+project-id = 472657

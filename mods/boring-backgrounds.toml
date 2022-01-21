@@ -1,0 +1,13 @@
+name = "Boring Backgrounds"
+filename = "boringbackgrounds-3.0.6+1.18.rc3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3540/327/boringbackgrounds-3.0.6+1.18.rc3.jar"
+hash-format = "murmur2"
+hash = "4060242973"
+
+[update]
+[update.curseforge]
+file-id = 3540327
+project-id = 363126

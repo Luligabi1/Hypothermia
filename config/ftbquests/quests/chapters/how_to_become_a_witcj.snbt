@@ -1,0 +1,10 @@
+{
+	id: "3015561AE58E9B78"
+	group: "1ECF94BB6B8B34D0"
+	order_index: 1
+	filename: "how_to_become_a_witcj"
+	title: "How to Become a Witch"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

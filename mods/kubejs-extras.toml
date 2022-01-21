@@ -1,0 +1,13 @@
+name = "KubeJS Extras"
+filename = "kjsextras-1.5.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3545/41/kjsextras-1.5.0.jar"
+hash-format = "murmur2"
+hash = "623860583"
+
+[update]
+[update.curseforge]
+file-id = 3545041
+project-id = 504045

@@ -1,0 +1,26 @@
+{
+	id: "5862EBD7A0F6510F"
+	group: "4AC104EE1CC52600"
+	order_index: 1
+	filename: "adventure"
+	title: "Adventure"
+	icon: {
+		id: "kibe:escape_rope"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "38C9CAB377D90CA7"
+		tasks: [{
+			id: "763D2AA77F6D9737"
+			type: "checkmark"
+			title: "a"
+		}]
+	}]
+}

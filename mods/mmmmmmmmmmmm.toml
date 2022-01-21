@@ -1,0 +1,13 @@
+name = "MmmMmmMmmMmm (Target Dummy)"
+filename = "MmmMmmMmmMmm-1.18-1.5.0-FABRIC.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3545/921/MmmMmmMmmMmm-1.18-1.5.0-FABRIC.jar"
+hash-format = "murmur2"
+hash = "2443664334"
+
+[update]
+[update.curseforge]
+file-id = 3545921
+project-id = 225738
