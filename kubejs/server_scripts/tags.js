@@ -34,5 +34,19 @@ onEvent('tags.items', (event) => {
 	// Tier 4 Circuits (Data)
 	event.add('hypothermia:t4_circuits_data', 'indrev:circuit_mk4')
 	event.add('hypothermia:t4_circuits_data', 'techreborn:data_storage_chip')
+});
+
+onEvent('tags.entity_types', (event) => {
+	
+	// DML: Refabricated's Slimy Mobs 
+	event.add('dml-refabricated:slimy_mobs', 'terrarianslimes:ice_slime')
+	event.add('dml-refabricated:slimy_mobs', 'terrarianslimes:jungle_slime')
+	
+	event.add('dml-refabricated:slimy_mobs', 'terrarianslimes:lava_slime')
+	event.add('dml-refabricated:slimy_mobs', 'terrarianslimes:crimslime')
+	event.add('dml-refabricated:slimy_mobs', 'terrarianslimes:corrupt_slime')
+	
+	event.add('dml-refabricated:slimy_mobs', 'terrarianslimes:illuminant_slime')
+	event.add('dml-refabricated:slimy_mobs', 'terrarianslimes:rainbow_slime')
 	
 });
