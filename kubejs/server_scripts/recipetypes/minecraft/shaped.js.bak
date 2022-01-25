@@ -64,6 +64,19 @@ onEvent('recipes', (event) => {
 	]);
 	
 	/*
+		CHAPTER BETA - INDUSTRIAL REVOLUTION
+	*/
+	
+	// change indrev:solar_generator_mk3 to be a MK2 machine
+	event.remove({ output: "indrev:solar_generator_mk3" });
+	event.shaped("indrev:solar_generator_mk3", [
+		[null, "indrev:circuit_mk2", null],
+		["indrev:nikolite_ingot", "indrev:solar_generator_mk1", "indrev:nikolite_ingot"],
+		["#c:silver_plates", "indrev:battery", "#c:silver_plates"]
+	]);
+	
+	
+	/*
 		CHAPTER DELTA - APPLIED ENERGISTICS 2
 	*/
 	
