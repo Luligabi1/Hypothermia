@@ -8,29 +8,8 @@ mainMenu {
         splashesEnabled = false
     }
 
-    background {
-        clearBackgrounds()
-        backgroundStayLength = 50000 // 50 seconds
-        backgroundFadeLength = 2000 // 2 seconds fade
-        renderGradientShade = true
-        image { 
-            texture = file("config/slightguimodifications/background.png") 
-        }
-    }
-
     removeMinecraftLogo()
-    removeEditionBadge()
     clearAllButtons()
-
-    label {
-        position {
-            x = 2
-            y { it - 10 }
-        }
-
-        text = literal("Hypothermia - v0.0.0-ALPHA")
-        shadow = true
-    }
 
     button {
         position {
@@ -43,6 +22,7 @@ mainMenu {
         text = translatable("menu.singleplayer")
         onClicked = singleplayer()
     }
+
     button {
         position {
             x { it / 2 - 100 }
@@ -66,6 +46,7 @@ mainMenu {
         text = translatable("modmenu.title")
         onClicked = modMenu()
     }
+
    button {
         position {
             x { it / 2 - 101 }
@@ -77,6 +58,7 @@ mainMenu {
         text = translatable("menu.options")
         onClicked = options()
     }
+
    button {
         position {
             x { it / 2 + 3 }
@@ -88,6 +70,7 @@ mainMenu {
         text = translatable("menu.quit")
         onClicked = exit()
     }
+
     button {
         position {
             x { it / 2 - 125 }
@@ -102,9 +85,17 @@ mainMenu {
         onClicked = url("https://discord.com/invite/G4PjhEf")
     }
 
+    label {
+        position {
+            x = 2
+            y { it - 10 }
+        }
 
+        text = literal("Hypothermia - v0.0.0-ALPHA")
+        shadow = true
+    }
 
-   button {
+    button {
         position {
             x { it / 2 + 107 }
             y = 215
