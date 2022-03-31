@@ -41,8 +41,9 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 2.5d
+			x: 10.5d
+			y: 0.0d
+			shape: "hexagon"
 			dependencies: ["15ECC3BDCBF2D04D"]
 			id: "05B75FFB63E160C2"
 			tasks: [{
@@ -56,8 +57,9 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 2.5d
+			x: 8.0d
+			y: -1.5d
+			shape: "hexagon"
 			dependencies: ["05B75FFB63E160C2"]
 			id: "37395CD7B1E41C56"
 			tasks: [{
@@ -71,9 +73,10 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 2.5d
-			dependencies: ["37395CD7B1E41C56"]
+			x: 10.5d
+			y: -3.0d
+			shape: "hexagon"
+			dependencies: ["05B75FFB63E160C2"]
 			id: "688B90BD301DE903"
 			tasks: [{
 				id: "6F17FE02D650797A"
@@ -86,9 +89,10 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 2.5d
-			dependencies: ["688B90BD301DE903"]
+			x: 8.0d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["05B75FFB63E160C2"]
 			id: "762A996C4743832F"
 			tasks: [{
 				id: "4F8AB850833A4B35"
@@ -101,9 +105,10 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: 2.5d
-			dependencies: ["762A996C4743832F"]
+			x: 13.0d
+			y: -1.5d
+			shape: "hexagon"
+			dependencies: ["05B75FFB63E160C2"]
 			id: "68842809BA5932E8"
 			tasks: [{
 				id: "1618A22C617E3620"
@@ -116,9 +121,10 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 2.5d
-			dependencies: ["68842809BA5932E8"]
+			x: 10.5d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["05B75FFB63E160C2"]
 			id: "50A63CDA39A7E64A"
 			tasks: [{
 				id: "65A70EF0EB897BF7"
@@ -131,9 +137,10 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: 2.5d
-			dependencies: ["50A63CDA39A7E64A"]
+			x: 13.0d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["05B75FFB63E160C2"]
 			id: "6BDDC084C933B61E"
 			tasks: [{
 				id: "46DC368B0B55B212"
@@ -146,9 +153,14 @@
 			}]
 		}
 		{
-			x: 25.0d
+			icon: {
+				id: "dml-refabricated:trial_key"
+				Count: 1b
+				tag: { }
+			}
+			x: 16.0d
 			y: 0.0d
-			dependencies: ["15ECC3BDCBF2D04D"]
+			dependencies: ["05B75FFB63E160C2"]
 			id: "54077524ABCA541C"
 			tasks: [
 				{
@@ -168,7 +180,7 @@
 			]
 		}
 		{
-			x: 27.5d
+			x: 18.5d
 			y: 0.0d
 			dependencies: ["54077524ABCA541C"]
 			id: "1A4E843BCC9FD909"
@@ -181,7 +193,7 @@
 		}
 		{
 			title: "Loot Fabrication"
-			x: 30.0d
+			x: 21.0d
 			y: 0.0d
 			description: ["Now here's where all your efforts will pay off: Depending on the category of the Data Model used to bound the Trial's trial key, you'll earn different types of Pristine Matter. Each type will generate different types of loot when inserted on the Loot Fabricator, some of which might not be obtainable in any other way."]
 			dependencies: ["1A4E843BCC9FD909"]
@@ -198,9 +210,9 @@
 			}]
 		}
 		{
-			x: 32.5d
+			x: 23.5d
 			y: 0.0d
-			description: ["For the next steps, you'll need Glitch Ingots. They're made by combining Netherite and *inhales* Physically-Condensed Matrix Fragments *exhales*. Quite the mouthful, eh? Well, to obtain... that, you'll need to win trials at superior tiers, such as Superior and Self-Aware."]
+			description: ["For the next steps, you'll need Glitch Ingots. They're made by combining Netherite and *inhales* Physically-Condensed Matrix Fragments *exhales*. Quite the mouthful, eh? Well, to obtain... that, you'll need to win trials at higher tiers (i.e. Superior and Self-Aware)."]
 			dependencies: ["4D10736C97226DF9"]
 			id: "32795EBCF7D94EDC"
 			tasks: [{
@@ -210,9 +222,9 @@
 			}]
 		}
 		{
-			x: 35.0d
+			x: 26.0d
 			y: 2.5d
-			description: ["With your Glitch Ingots, you may now upgrade a Netherite Armor to a Glitch Armor. Glitch Armor has the advantage of being modular and upgradeable: Right-Click any piece of the armor and you'll be able to insert a Data Model inside it and, depending on tier and category, you'll receive different buffs to the armor! WARNING: Only one piece of the armor is required to progress."]
+			description: ["With your Glitch Ingot, you may now upgrade a Netherite Armor to a Glitch Armor. Glitch Armor has the advantage of being modular and upgradeable: Right-Click any piece of the armor and you'll be able to insert a Data Model inside it and, depending on tier and category, you'll receive different buffs to the armor! WARNING: Only one piece of the armor is required to progress."]
 			dependencies: ["32795EBCF7D94EDC"]
 			id: "5D8F5A3490D75541"
 			tasks: [{
@@ -231,9 +243,9 @@
 			}]
 		}
 		{
-			x: 35.0d
+			x: 26.0d
 			y: 5.0d
-			description: ["With your Glitch Ingots, you may now upgrade a Netherite Armor to a Glitch Armor. Glitch Armor has the advantage of being modular and upgradeable: Right-Click any piece of the armor and you'll be able to insert a Data Model inside it and, depending on tier and category, you'll receive different buffs to the armor! WARNING: Only one piece of the armor is required to progress."]
+			description: ["With your Glitch Ingot, you may now upgrade a Netherite Armor to a Glitch Armor. Glitch Armor has the advantage of being modular and upgradeable: Right-Click any piece of the armor and you'll be able to insert a Data Model inside it and, depending on tier and category, you'll receive different buffs to the armor! WARNING: Only one piece of the armor is required to progress."]
 			dependencies: ["32795EBCF7D94EDC"]
 			id: "4C4D9767AABC7612"
 			tasks: [{
@@ -252,9 +264,9 @@
 			}]
 		}
 		{
-			x: 35.0d
+			x: 26.0d
 			y: -2.5d
-			description: ["With your Glitch Ingots, you may now upgrade a Netherite Armor to a Glitch Armor. Glitch Armor has the advantage of being modular and upgradeable: Right-Click any piece of the armor and you'll be able to insert a Data Model inside it and, depending on tier and category, you'll receive different buffs to the armor! WARNING: Only one piece of the armor is required to progress."]
+			description: ["With your Glitch Ingot, you may now upgrade a Netherite Armor to a Glitch Armor. Glitch Armor has the advantage of being modular and upgradeable: Right-Click any piece of the armor and you'll be able to insert a Data Model inside it and, depending on tier and category, you'll receive different buffs to the armor! WARNING: Only one piece of the armor is required to progress."]
 			dependencies: ["32795EBCF7D94EDC"]
 			id: "4B0B56A8050E5B48"
 			tasks: [{
@@ -273,9 +285,9 @@
 			}]
 		}
 		{
-			x: 35.0d
+			x: 26.0d
 			y: -5.0d
-			description: ["With your Glitch Ingots, you may now upgrade a Netherite Armor to a Glitch Armor. Glitch Armor has the advantage of being modular and upgradeable: Right-Click any piece of the armor and you'll be able to insert a Data Model inside it and, depending on tier and category, you'll receive different buffs to the armor! WARNING: Only one piece of the armor is required to progress."]
+			description: ["With your Glitch Ingot, you may now upgrade a Netherite Armor to a Glitch Armor. Glitch Armor has the advantage of being modular and upgradeable: Right-Click any piece of the armor and you'll be able to insert a Data Model inside it and, depending on tier and category, you'll receive different buffs to the armor! WARNING: Only one piece of the armor is required to progress."]
 			dependencies: ["32795EBCF7D94EDC"]
 			id: "68FA5CF2F2421959"
 			tasks: [{
@@ -294,7 +306,7 @@
 			}]
 		}
 		{
-			x: 37.5d
+			x: 28.5d
 			y: 0.0d
 			description: ["By default, the Glitch Armor is pretty good, but it can get better: With a Matter Condenser, you're able to condense any kind of Pristine Matter into your Glitch Armor, upgrading all of its stats."]
 			dependencies: [
@@ -313,7 +325,7 @@
 		}
 		{
 			icon: "dmlsimulacrum:simulation_chamber"
-			x: 40.0d
+			x: 30.75d
 			y: 0.0d
 			shape: "octagon"
 			description: ["The Simulation Chamber allows you to run Simulations of battle with mobs, requiring a Data Model, Polymer Clay and Energy. Simulations can output 2 types of item: Matter and Pristine Matter.                                                                                       Matter is a abstract essence of the dimension your mob's Data Model comes from. This matter can be transformed into another items from its dimension or consumed for Experience.                                                                  You already know what Pristine Matter is. What's important to know is that it's a very rare output for Simulations, with the success rate increasing depending on the used Data Model's tier."]
@@ -324,6 +336,22 @@
 				id: "0316A7D3FFE1C170"
 				type: "item"
 				item: "dmlsimulacrum:simulation_chamber"
+			}]
+		}
+		{
+			title: "Mod Information - Deep Mob Learning: Refabricated"
+			icon: "kubejs:info_logo"
+			x: 0.375d
+			y: -0.375d
+			shape: "circle"
+			subtitle: "Click here for information on this Chapter's mod!"
+			description: ["Deep Mob Learning: Refabricated is a rework of the original mod by xt9. It focuses on obtaining the properties of mobs through sacrifice and using that properties to artificially generate mob loot, blocks and even obtain some of the mob's properties for yourself via armor."]
+			size: 0.5d
+			optional: true
+			id: "045FCE2ABF60F1EC"
+			tasks: [{
+				id: "29DBBC32DA55578E"
+				type: "checkmark"
 			}]
 		}
 	]

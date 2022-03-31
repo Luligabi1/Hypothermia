@@ -13,14 +13,171 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		id: "38C9CAB377D90CA7"
-		tasks: [{
-			id: "763D2AA77F6D9737"
-			type: "checkmark"
-			title: "a"
-		}]
-	}]
+	quests: [
+		{
+			title: "Chapter Information - Adventure"
+			icon: "kubejs:info_logo"
+			x: 0.0d
+			y: 0.0d
+			shape: "circle"
+			subtitle: "Click here for information on this Chapter!"
+			id: "252421865FF31F6D"
+			tasks: [{
+				id: "7ECDB02450DF5E0B"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			id: "2E709DAE9F91A84A"
+			tasks: [{
+				id: "7E32ACC6702183E8"
+				type: "item"
+				item: {
+					id: "kibe:escape_rope"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Artifact Hunting"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "Kill a Mimic to obtain a random Artifact"
+			description: ["Artifacts are special gadgets that grant the player special abilities and effects. You can equip them on the additional trinket slots (viewable when hovering armor slots). To obtain an Artifact you must kill a Mimic. What's a mimic? Well, you'll eventually find out... :)"]
+			dependencies: ["252421865FF31F6D"]
+			id: "175795AE81ADBFBA"
+			tasks: [{
+				id: "22C6CC3CD9407FC4"
+				type: "kill"
+				icon: "artifacts:mimic_spawn_egg"
+				entity: "artifacts:mimic"
+				value: 1L
+			}]
+		}
+		{
+			title: "Head Artifacts"
+			icon: "artifacts:superstitious_hat"
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["175795AE81ADBFBA"]
+			id: "46B91A6187426FB0"
+			tasks: [{
+				id: "6D2CFD2556F8B4AE"
+				type: "item"
+				title: "Any Head Artifact"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hypothermia:artifacts_head"
+					}
+				}
+			}]
+		}
+		{
+			title: "Necklace Artifacts"
+			icon: "artifacts:shock_pendant"
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["175795AE81ADBFBA"]
+			id: "51907991F27EA223"
+			tasks: [{
+				id: "369D58473AEF0CFA"
+				type: "item"
+				title: "Any Necklace Artifact"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hypothermia:artifacts_necklace"
+					}
+				}
+			}]
+		}
+		{
+			title: "Glove Artifacts"
+			icon: "artifacts:power_glove"
+			x: 7.0d
+			y: -1.0d
+			dependencies: ["175795AE81ADBFBA"]
+			id: "49080E7467EAACFE"
+			tasks: [{
+				id: "33FE950E9FAC2E78"
+				type: "item"
+				title: "Any Glove Artifact"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hypothermia:artifacts_glove"
+					}
+				}
+			}]
+		}
+		{
+			title: "Miscellaneous Artifacts"
+			icon: "artifacts:eternal_steak"
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["175795AE81ADBFBA"]
+			id: "0F955F9D309AAB95"
+			tasks: [{
+				id: "5DFAD7395C6D4D3D"
+				type: "item"
+				title: "Any Misc. Artifact"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hypothermia:artifacts_misc"
+					}
+				}
+			}]
+		}
+		{
+			title: "Belt Artifacts"
+			icon: "artifacts:helium_flamingo"
+			x: 7.0d
+			y: 1.0d
+			dependencies: ["175795AE81ADBFBA"]
+			id: "3540D71F4913CE5E"
+			tasks: [{
+				id: "6B1FFA746694F34E"
+				type: "item"
+				title: "Any Belt Artifact"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hypothermia:artifacts_belt"
+					}
+				}
+			}]
+		}
+		{
+			title: "Feet Artifacts"
+			icon: "artifacts:running_shoes"
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["175795AE81ADBFBA"]
+			id: "2943BB14DCFD6AF3"
+			tasks: [{
+				id: "043FBCC0D77F9E9A"
+				type: "item"
+				title: "Any Feet Artifact"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "hypothermia:artifacts_feet"
+					}
+				}
+			}]
+		}
+	]
 }

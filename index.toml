@@ -1,6 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/appliedenergistics2/client.json"
+
+[[files]]
+file = "config/appliedenergistics2/common.json"
+
+[[files]]
 file = "config/boringbackgrounds.json"
 
 [[files]]
@@ -11,6 +17,9 @@ file = "config/dark-loading-screen.json"
 
 [[files]]
 file = "config/expandedstorage.json"
+
+[[files]]
+file = "config/fpsreducer.json"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -32,6 +41,9 @@ file = "config/ftbquests/quests/chapters/better_storage.snbt"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/collectors_quest.snbt"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/conjuring.snbt"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/deeply_learning_mobs.snbt"
@@ -73,7 +85,7 @@ file = "config/roughlyenoughitems/config.json5"
 file = "config/seasons.json"
 
 [[files]]
-file = "config/slightguimodifications/background.png"
+file = "config/sidebar_buttons.json"
 
 [[files]]
 file = "config/slightguimodifications/buttons.png"
@@ -91,9 +103,6 @@ file = "config/slightguimodifications/discord_button.png"
 file = "config/slightguimodifications/discord_button_hovered.png"
 
 [[files]]
-file = "config/slightguimodifications/logo.png"
-
-[[files]]
 file = "config/slightguimodifications/slider.png"
 
 [[files]]
@@ -103,16 +112,37 @@ file = "config/slightguimodifications/slider_hovered.png"
 file = "config/slightguimodifications/text_field.png"
 
 [[files]]
-file = "kubejs/README.txt"
-
-[[files]]
 file = "kubejs/assets/authme/textures/gui/widgets.png"
 
 [[files]]
-file = "kubejs/client_scripts/rei_unification.js"
+file = "kubejs/assets/indrev/lang/en_us.json"
 
 [[files]]
-file = "kubejs/client_scripts/rei_unification.js.bak"
+file = "kubejs/assets/indrev/lang/pt_br.json"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_0.png"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_1.png"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_2.png"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_3.png"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_4.png"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_5.png"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/minecraft.png"
+
+[[files]]
+file = "kubejs/client_scripts/rei_unification.js"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -121,43 +151,10 @@ file = "kubejs/config/client.properties"
 file = "kubejs/config/common.properties"
 
 [[files]]
-file = "kubejs/data/cosmetic-armor/tags/items/blacklist.json"
-
-[[files]]
-file = "kubejs/data/indrev/loot_tables/blocks/deepslate_silver_ore.json"
-
-[[files]]
-file = "kubejs/data/indrev/loot_tables/blocks/silver_ore.json"
-
-[[files]]
-file = "kubejs/exported/tags/biomes.txt"
-
-[[files]]
-file = "kubejs/exported/tags/blocks.txt"
-
-[[files]]
-file = "kubejs/exported/tags/entity_types.txt"
-
-[[files]]
-file = "kubejs/exported/tags/fluids.txt"
-
-[[files]]
-file = "kubejs/exported/tags/functions.txt"
-
-[[files]]
-file = "kubejs/exported/tags/game_events.txt"
-
-[[files]]
-file = "kubejs/exported/tags/items.txt"
-
-[[files]]
 file = "kubejs/server_scripts/recipetypes/indrev/infuse.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipetypes/indrev/infuse.js.bak"
-
-[[files]]
-file = "kubejs/server_scripts/recipetypes/indrev/recycle.js"
+file = "kubejs/server_scripts/recipetypes/indrev/pulverize.js"
 
 [[files]]
 file = "kubejs/server_scripts/recipetypes/minecraft/shaped.js"
@@ -166,19 +163,13 @@ file = "kubejs/server_scripts/recipetypes/minecraft/shaped.js"
 file = "kubejs/server_scripts/recipetypes/minecraft/shaped.js.bak"
 
 [[files]]
-file = "kubejs/server_scripts/recipetypes/techreborn/assembling_machine.js"
+file = "kubejs/server_scripts/recipetypes/techreborn/chemical_reactor.js"
 
 [[files]]
-file = "kubejs/server_scripts/recipetypes/techreborn/assembling_machine.js.bak"
+file = "kubejs/server_scripts/tags.js"
 
 [[files]]
 file = "kubejs/server_scripts/unification/materials.js"
-
-[[files]]
-file = "kubejs/server_scripts/unification/materials.js.bak"
-
-[[files]]
-file = "kubejs/startup_scripts/worldgen.js"
 
 [[files]]
 file = "mods/advancements-enlarger.toml"
@@ -193,11 +184,19 @@ file = "mods/appleskin.toml"
 metafile = true
 
 [[files]]
+file = "mods/applied-energistics-2-wireless-terminals.toml"
+metafile = true
+
+[[files]]
 file = "mods/applied-energistics-2.toml"
 metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/artifacts-fabric.toml"
 metafile = true
 
 [[files]]
@@ -213,11 +212,19 @@ file = "mods/auto-config-updated-api.toml"
 metafile = true
 
 [[files]]
+file = "mods/autoclick-machine.toml"
+metafile = true
+
+[[files]]
 file = "mods/balm-fabric.toml"
 metafile = true
 
 [[files]]
 file = "mods/basic-aiots.toml"
+metafile = true
+
+[[files]]
+file = "mods/betterloadingscreen.toml"
 metafile = true
 
 [[files]]
@@ -245,6 +252,10 @@ file = "mods/carrier.toml"
 metafile = true
 
 [[files]]
+file = "mods/cc-restitched.toml"
+metafile = true
+
+[[files]]
 file = "mods/cherished-worlds-fabric.toml"
 metafile = true
 
@@ -269,11 +280,19 @@ file = "mods/cosmetic-armor-fabric.toml"
 metafile = true
 
 [[files]]
+file = "mods/coxinha-utilities.toml"
+metafile = true
+
+[[files]]
 file = "mods/crafting-tweaks-fabric.toml"
 metafile = true
 
 [[files]]
 file = "mods/croptopia-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/croptosis.toml"
 metafile = true
 
 [[files]]
@@ -309,6 +328,10 @@ file = "mods/extra-generators.toml"
 metafile = true
 
 [[files]]
+file = "mods/ezpas.toml"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.toml"
 metafile = true
 
@@ -326,6 +349,10 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-waystones.toml"
+metafile = true
+
+[[files]]
+file = "mods/feature-nbt-deadlock-be-gone.toml"
 metafile = true
 
 [[files]]
@@ -349,11 +376,19 @@ file = "mods/ftb-teams-fabric.toml"
 metafile = true
 
 [[files]]
+file = "mods/glassential-fabric.toml"
+metafile = true
+
+[[files]]
 file = "mods/i-know-what-im-doing.toml"
 metafile = true
 
 [[files]]
 file = "mods/incantationem.toml"
+metafile = true
+
+[[files]]
+file = "mods/indium.toml"
 metafile = true
 
 [[files]]
@@ -370,6 +405,10 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-sorting.toml"
+metafile = true
+
+[[files]]
+file = "mods/iron-furnaces-fabric.toml"
 metafile = true
 
 [[files]]
@@ -409,6 +448,10 @@ file = "mods/light-overlay.toml"
 metafile = true
 
 [[files]]
+file = "mods/lithium.toml"
+metafile = true
+
+[[files]]
 file = "mods/megane.toml"
 metafile = true
 
@@ -418,6 +461,10 @@ metafile = true
 
 [[files]]
 file = "mods/mo-structures.toml"
+metafile = true
+
+[[files]]
+file = "mods/modern-industrialization.toml"
 metafile = true
 
 [[files]]
@@ -433,6 +480,18 @@ file = "mods/ninjaphenixs-container-library.toml"
 metafile = true
 
 [[files]]
+file = "mods/no-null-processors.toml"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-crashes.toml"
+metafile = true
+
+[[files]]
+file = "mods/onastick.toml"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.toml"
 metafile = true
 
@@ -445,7 +504,15 @@ file = "mods/pehkui.toml"
 metafile = true
 
 [[files]]
+file = "mods/phosphor.toml"
+metafile = true
+
+[[files]]
 file = "mods/pling.toml"
+metafile = true
+
+[[files]]
+file = "mods/quarry-reborn.toml"
 metafile = true
 
 [[files]]
@@ -461,11 +528,19 @@ file = "mods/rhino.toml"
 metafile = true
 
 [[files]]
+file = "mods/rightclickharvest-fabric.toml"
+metafile = true
+
+[[files]]
 file = "mods/roughly-enough-items.toml"
 metafile = true
 
 [[files]]
 file = "mods/roughly-enough-resources.toml"
+metafile = true
+
+[[files]]
+file = "mods/secret-rooms-fabric.toml"
 metafile = true
 
 [[files]]
@@ -477,6 +552,10 @@ file = "mods/slight-gui-modifications.toml"
 metafile = true
 
 [[files]]
+file = "mods/slotlink.toml"
+metafile = true
+
+[[files]]
 file = "mods/slotlock.toml"
 metafile = true
 
@@ -485,11 +564,27 @@ file = "mods/smoother-bedrock.toml"
 metafile = true
 
 [[files]]
+file = "mods/sodium.toml"
+metafile = true
+
+[[files]]
+file = "mods/spatial-harvesters-fabric.toml"
+metafile = true
+
+[[files]]
 file = "mods/spectrum.toml"
 metafile = true
 
 [[files]]
 file = "mods/staff-of-building.toml"
+metafile = true
+
+[[files]]
+file = "mods/stoneholm.toml"
+metafile = true
+
+[[files]]
+file = "mods/structure-tools.toml"
 metafile = true
 
 [[files]]
@@ -505,6 +600,10 @@ file = "mods/textile-backup.toml"
 metafile = true
 
 [[files]]
+file = "mods/time-in-a-bottle.toml"
+metafile = true
+
+[[files]]
 file = "mods/tooltipfix.toml"
 metafile = true
 
@@ -513,7 +612,15 @@ file = "mods/trap-expansion-fabric.toml"
 metafile = true
 
 [[files]]
+file = "mods/trashslot-fabric-edition.toml"
+metafile = true
+
+[[files]]
 file = "mods/trinkets-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/vanilla-excavators.toml"
 metafile = true
 
 [[files]]

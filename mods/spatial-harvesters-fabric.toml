@@ -1,0 +1,13 @@
+name = "Spatial Harvesters [FABRIC]"
+filename = "spatialharvesters_Fabric_1.18.x-0.11.13b.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3621/361/spatialharvesters_Fabric_1.18.x-0.11.13b.jar"
+hash-format = "murmur2"
+hash = "4160554178"
+
+[update]
+[update.curseforge]
+file-id = 3621361
+project-id = 437533

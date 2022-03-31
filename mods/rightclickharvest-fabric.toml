@@ -1,0 +1,13 @@
+name = "RightClickHarvest"
+filename = "rightclickharvest-1.5.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3541/965/rightclickharvest-1.5.1.jar"
+hash-format = "murmur2"
+hash = "1631038792"
+
+[update]
+[update.curseforge]
+file-id = 3541965
+project-id = 452834

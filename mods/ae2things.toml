@@ -1,13 +1,13 @@
 name = "AE2 Things"
-filename = "AE2Things-1.0.1-beta.2.jar"
+filename = "AE2Things-1.0.1-beta.4.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3609/347/AE2Things-1.0.1-beta.2.jar"
+url = "https://edge.forgecdn.net/files/3635/67/AE2Things-1.0.1-beta.4.jar"
 hash-format = "murmur2"
-hash = "2928115604"
+hash = "2779522296"
 
 [update]
 [update.curseforge]
-file-id = 3609347
+file-id = 3635067
 project-id = 563800

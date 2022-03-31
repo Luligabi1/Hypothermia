@@ -1,0 +1,17 @@
+{
+	id: "543964AD0BE6F88E"
+	group: "7C8A65D35C538092"
+	order_index: 2
+	filename: "computercraft"
+	title: "ComputerCraft"
+	icon: {
+		id: "computercraft:disk"
+		Count: 1b
+		tag: {
+			Color: 1118481
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -10,26 +10,34 @@
 	quests: [
 		{
 			title: "Energetic dust"
+			icon: "indrev:nikolite_dust"
 			x: 0.0d
 			y: 0.0d
 			description: ["To start the Industrial Revolution, you must get some nikolite dust. Nikolite dust is obtained via Nikolite Ores, that generate between Y level 0 and 16."]
 			id: "378911970134DE12"
-			tasks: [{
-				id: "6AB8A2CAF9F9F9DD"
-				type: "item"
-				item: "indrev:nikolite_dust"
-				count: 8L
-			}]
-			rewards: [{
-				id: "094455FA02296952"
-				type: "item"
-				item: {
-					id: "indrev:hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "6AB8A2CAF9F9F9DD"
+					type: "item"
+					item: "indrev:nikolite_dust"
+					count: 8L
+				}
+				{
+					id: "5CF99D83A54621B4"
+					type: "item"
+					item: {
+						id: "indrev:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
+			]
+			rewards: [{
+				id: "53775DA79D61320C"
+				type: "item"
+				item: "indrev:guide_book"
 			}]
 		}
 		{

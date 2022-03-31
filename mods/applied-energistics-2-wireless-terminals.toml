@@ -1,0 +1,13 @@
+name = "Applied Energistics 2 Wireless Terminals"
+filename = "AE2WTLib-10.1.1-beta.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3638/494/AE2WTLib-10.1.1-beta.4.jar"
+hash-format = "murmur2"
+hash = "388398744"
+
+[update]
+[update.curseforge]
+file-id = 3638494
+project-id = 459929

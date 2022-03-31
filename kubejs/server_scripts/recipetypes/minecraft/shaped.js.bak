@@ -64,51 +64,23 @@ onEvent('recipes', (event) => {
 	]);
 	
 	/*
-		CHAPTER BETA - INDUSTRIAL REVOLUTION
-	*/
-	
-	// change indrev:solar_generator_mk3 to be a MK2 machine
-	event.remove({ output: "indrev:solar_generator_mk3" });
-	event.shaped("indrev:solar_generator_mk3", [
-		[null, "indrev:circuit_mk2", null],
-		["indrev:nikolite_ingot", "indrev:solar_generator_mk1", "indrev:nikolite_ingot"],
-		["#c:silver_plates", "indrev:battery", "#c:silver_plates"]
-	]);
-	
-	
-	/*
 		CHAPTER DELTA - APPLIED ENERGISTICS 2
 	*/
 	
-	// ae2:calculation_processor_press
-	event.shaped("ae2:calculation_processor_press", [
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"],
-		["#c:iron_plates", "ae2:certus_quartz_crystal", "#c:iron_plates"],
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"]
+	// ae2:inscriber
+	event.remove({ output: "ae2:inscriber" });
+	event.shaped("ae2:inscriber", [
+		["minecraft:iron_ingot", "minecraft:sticky_piston", "minecraft:iron_ingot"],
+		["ae2:fluix_crystal", null, "minecraft:iron_ingot"],
+		["minecraft:iron_ingot", "minecraft:sticky_piston", "minecraft:iron_ingot"]
 	]);
 	
-	// ae2:engineering_processor_press
-	event.shaped("ae2:engineering_processor_press", [
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"],
-		["#c:iron_plates", "minecraft:diamond", "#c:iron_plates"],
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"]
+	event.shaped("ae2:inscriber", [
+		["minecraft:iron_ingot", "minecraft:sticky_piston", "minecraft:iron_ingot"],
+		["minecraft:iron_ingot", null, "ae2:fluix_crystal"],
+		["minecraft:iron_ingot", "minecraft:sticky_piston", "minecraft:iron_ingot"]
 	]);
-	
-	// ae2:logic_processor_press
-	event.shaped("ae2:logic_processor_press", [
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"],
-		["#c:iron_plates", "#c:gold_ingots", "#c:iron_plates"],
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"]
-	]);
-	
-	// ae2:silicon_press
-	event.shaped("ae2:silicon_press", [
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"],
-		["#c:iron_plates", "ae2:silicon", "#c:iron_plates"],
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"]
-	]);
-	
-	
+
 	// ae2things:disk_housing
 	event.remove({ output: "ae2things:disk_housing" });
 	event.shaped("ae2things:disk_housing", [
@@ -163,6 +135,14 @@ onEvent('recipes', (event) => {
 	/*
 		CHAPTER DELTA - DEEP MOB LEARNING
 	*/
+	
+	// dml-refabricated:deep_learner
+	event.remove({ output: "dml-refabricated:deep_learner" });
+	event.shaped("dml-refabricated:deep_learner", [
+		["dml-refabricated:soot_plate", "minecraft:repeater", "dml-refabricated:soot_plate"],
+		["minecraft:repeater", "dml-refabricated:data_model", "minecraft:repeater"],
+		["dml-refabricated:soot_plate", "dml-refabricated:soot_redstone", "dml-refabricated:soot_plate"]
+	]);
 	
 	// dmlsimulacrum:polymer_clay
 	event.remove({ output: "dmlsimulacrum:polymer_clay" });

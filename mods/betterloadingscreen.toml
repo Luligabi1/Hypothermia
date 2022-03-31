@@ -1,0 +1,13 @@
+name = "Better Loading Screen"
+filename = "better-loading-screen-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3697/289/better-loading-screen-1.2.1.jar"
+hash-format = "murmur2"
+hash = "643855641"
+
+[update]
+[update.curseforge]
+file-id = 3697289
+project-id = 594044

@@ -1,13 +1,13 @@
 name = "Carrier"
-filename = "carrier-1.9.0.jar"
+filename = "carrier-1.9.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3545/495/carrier-1.9.0.jar"
+url = "https://edge.forgecdn.net/files/3624/495/carrier-1.9.1.jar"
 hash-format = "murmur2"
-hash = "412559289"
+hash = "4200438248"
 
 [update]
 [update.curseforge]
-file-id = 3545495
+file-id = 3624495
 project-id = 409184

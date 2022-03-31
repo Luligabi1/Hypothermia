@@ -1,0 +1,13 @@
+name = "St'ructure Tools"
+filename = "structure-tools-1.0.10.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3600/965/structure-tools-1.0.10.jar"
+hash-format = "murmur2"
+hash = "4229585528"
+
+[update]
+[update.curseforge]
+file-id = 3600965
+project-id = 536984

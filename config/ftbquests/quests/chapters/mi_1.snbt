@@ -1,0 +1,440 @@
+{
+	id: "1CB2110FEF103917"
+	group: "6E81D4649406C6F9"
+	order_index: 2
+	filename: "mi_1"
+	title: "The Steam Age"
+	icon: "modern_industrialization:bucket_steam"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "modern_industrialization:forge_hammer"
+			x: 0.0d
+			y: 0.0d
+			id: "14D46141ED843AAA"
+			tasks: [
+				{
+					id: "0CF76AE1D30514A7"
+					type: "item"
+					item: "modern_industrialization:forge_hammer"
+				}
+				{
+					id: "31023D555028944D"
+					type: "item"
+					title: "Hammer"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "modern_industrialization:forge_hammer_tools"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "328FEFD36A38702D"
+				type: "item"
+				item: "modern_industrialization:guidebook"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["14D46141ED843AAA"]
+			id: "184C3521503E8AD8"
+			tasks: [{
+				id: "0B513E1D6F31FFCB"
+				type: "item"
+				item: "modern_industrialization:bronze_dust"
+			}]
+			rewards: [{
+				id: "262F01C4AEE22A02"
+				type: "random"
+				table_id: 9101426912828266608L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: ["To power your first machines, you'll need steam. While you don't get yourself a better way to make steam, boiling water on a furnace will do."]
+			dependencies: ["184C3521503E8AD8"]
+			id: "2BCEB8C6CB4BFE84"
+			tasks: [{
+				id: "4EDD52CFA1CF411C"
+				type: "item"
+				item: "modern_industrialization:bucket_steam"
+			}]
+			rewards: [{
+				id: "2C436C7F9CC5935E"
+				type: "item"
+				item: "modern_industrialization:bronze_machine_casing"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			description: ["Compressors craft plates, curved plates and rings at the utmost efficiency."]
+			dependencies: ["2BCEB8C6CB4BFE84"]
+			id: "7D235C9FFA366151"
+			tasks: [{
+				id: "2858553B9C409D62"
+				type: "item"
+				item: "modern_industrialization:bronze_compressor"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			description: ["The Bronze Furnace is a slightly improved version of vanilla's furnace, using 20x less fuel. Steam is just that efficient."]
+			dependencies: ["2BCEB8C6CB4BFE84"]
+			id: "62CF73C81DDFA799"
+			tasks: [{
+				id: "69117567272A715C"
+				type: "item"
+				item: "modern_industrialization:bronze_furnace"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			description: ["Macerators are able to more efficiently pulverize ores, with a chance of doubling them in the process!"]
+			dependencies: ["2BCEB8C6CB4BFE84"]
+			id: "7A94062629BECFBE"
+			tasks: [{
+				id: "537D033E46A65847"
+				type: "item"
+				item: "modern_industrialization:bronze_macerator"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			description: ["Mixers will blend two or more materials with utmost efficiency, always returning more material than doing the same process on a Crafting Table."]
+			dependencies: ["2BCEB8C6CB4BFE84"]
+			id: "64ABD258CDE60A3F"
+			tasks: [{
+				id: "6D8064FB53884DC4"
+				type: "item"
+				item: "modern_industrialization:bronze_mixer"
+			}]
+		}
+		{
+			title: "Automated Boiling"
+			icon: "modern_industrialization:bronze_boiler"
+			x: 10.0d
+			y: 0.0d
+			description: ["At this point you're probably tired of boiling water for your machines by hand. The boiler will solve your issues by making the steam for you. Once you setup the Boiler and Water Pump, use fluid pipes to connect your boiler to all of your machines. Pay attention to the arrows on the cable's ends!"]
+			dependencies: [
+				"7A94062629BECFBE"
+				"62CF73C81DDFA799"
+				"7D235C9FFA366151"
+				"64ABD258CDE60A3F"
+			]
+			dependency_requirement: "one_completed"
+			id: "023B33189701C25E"
+			tasks: [
+				{
+					id: "25F1EA0B3488E967"
+					type: "item"
+					item: "modern_industrialization:bronze_boiler"
+				}
+				{
+					id: "01FB98C13D3BD64C"
+					type: "item"
+					item: "modern_industrialization:bronze_water_pump"
+				}
+				{
+					id: "43AD890AFB0B2399"
+					type: "item"
+					item: "modern_industrialization:bronze_tank"
+				}
+				{
+					id: "343D8B5DB84827A3"
+					type: "item"
+					title: "Any 'Modern Industrialization' Fluid Pipe"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "modern_industrialization:fluid_pipes"
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "modern_industrialization:coke_oven"
+			x: 12.5d
+			y: 0.0d
+			subtitle: "Nothing illegal here, I swear!"
+			dependencies: ["023B33189701C25E"]
+			id: "4ED401DC7B620108"
+			tasks: [
+				{
+					id: "0CB2A870F92FA429"
+					type: "item"
+					item: "modern_industrialization:coke_oven"
+				}
+				{
+					id: "0675B20A7DC85C87"
+					type: "item"
+					item: "minecraft:bricks"
+					count: 23L
+				}
+				{
+					id: "31102006C6B601C2"
+					type: "item"
+					item: "modern_industrialization:bronze_item_input_hatch"
+				}
+				{
+					id: "0B887F6E797FF554"
+					type: "item"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+				}
+				{
+					id: "7294EA10A2C3251E"
+					type: "item"
+					item: "modern_industrialization:bronze_item_output_hatch"
+				}
+			]
+			rewards: [{
+				id: "11DFED47EE3AB67F"
+				type: "random"
+				table_id: 9101426912828266608L
+			}]
+		}
+		{
+			icon: "modern_industrialization:steam_blast_furnace"
+			x: 15.0d
+			y: 0.0d
+			dependencies: ["4ED401DC7B620108"]
+			id: "06640D87704B0FD7"
+			tasks: [
+				{
+					id: "1A08ABF43506838D"
+					type: "item"
+					item: "modern_industrialization:steam_blast_furnace"
+				}
+				{
+					id: "55E1CD7C197E1E9D"
+					type: "item"
+					item: "modern_industrialization:fire_clay_bricks"
+					count: 32L
+				}
+				{
+					id: "71AD3520CB87C7AC"
+					type: "item"
+					item: "modern_industrialization:bronze_item_input_hatch"
+				}
+				{
+					id: "6488C86F2E6D9442"
+					type: "item"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+				}
+				{
+					id: "6953515F79B9C6F8"
+					type: "item"
+					item: "modern_industrialization:bronze_item_output_hatch"
+				}
+			]
+			rewards: [{
+				id: "447E06711D7CC366"
+				type: "random"
+				table_id: 3122923615296186069L
+			}]
+		}
+		{
+			x: 17.5d
+			y: 0.0d
+			dependencies: ["06640D87704B0FD7"]
+			id: "294F969374D67898"
+			tasks: [{
+				id: "449389E20FABF0F3"
+				type: "item"
+				item: "modern_industrialization:steel_upgrade"
+			}]
+			rewards: [{
+				id: "209B68F0CAD6C22D"
+				type: "item"
+				item: "modern_industrialization:steel_upgrade"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -2.5d
+			description: ["A machine capable of packing items together (i.e. nether quartz into quartz blocks). TIP: Can also be used to upgrade machines without a Smithing Table."]
+			optional: true
+			id: "7F60EDD669B1959F"
+			tasks: [{
+				id: "72128C036BE926C8"
+				type: "item"
+				item: "modern_industrialization:steel_packer"
+			}]
+		}
+		{
+			x: 20.0d
+			y: -2.5d
+			description: ["Does the exact opposite of the Steel Packer. That's it."]
+			dependencies: ["7F60EDD669B1959F"]
+			optional: true
+			id: "45A19E13694A1F91"
+			tasks: [{
+				id: "6BCD5410B36864EB"
+				type: "item"
+				item: "modern_industrialization:steel_unpacker"
+			}]
+		}
+		{
+			icon: "modern_industrialization:steam_quarry"
+			x: 20.0d
+			y: 0.0d
+			dependencies: ["294F969374D67898"]
+			id: "4EE37524BC966087"
+			tasks: [
+				{
+					id: "5E1C05E3D8E09B8F"
+					type: "item"
+					item: "modern_industrialization:steam_quarry"
+				}
+				{
+					id: "5E0CD959EEAF1AF8"
+					type: "item"
+					item: "modern_industrialization:steel_machine_casing"
+					count: 12L
+				}
+				{
+					id: "6CF96970CD5131B5"
+					type: "item"
+					item: "modern_industrialization:steel_item_input_hatch"
+				}
+				{
+					id: "2D2AC7AF7DE44905"
+					type: "item"
+					item: "modern_industrialization:steel_fluid_input_hatch"
+				}
+				{
+					id: "3963454B397434D2"
+					type: "item"
+					item: "modern_industrialization:steel_item_output_hatch"
+				}
+				{
+					id: "41134F0210B2C0D0"
+					type: "item"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					count: 6L
+				}
+				{
+					id: "2E5F852AFDB1C384"
+					type: "item"
+					item: "minecraft:chain"
+					count: 4L
+				}
+				{
+					id: "7E2D11A20791AEAB"
+					type: "item"
+					item: "modern_industrialization:bronze_drill"
+				}
+			]
+		}
+		{
+			title: "One Big Tank"
+			icon: "modern_industrialization:large_tank"
+			x: 22.5d
+			y: 0.0d
+			description: ["Going forward, Bronze Tanks will not be enough. Large Tanks are multiblock tank structures, being able to store 1728 Buckets at the minimum requirements."]
+			dependencies: ["4EE37524BC966087"]
+			id: "2830156A7476098E"
+			tasks: [
+				{
+					id: "778DA7215CB54646"
+					type: "item"
+					item: "modern_industrialization:large_tank"
+				}
+				{
+					id: "52D73A219EE19C80"
+					type: "item"
+					item: "modern_industrialization:steel_machine_casing"
+					count: 20L
+				}
+				{
+					id: "4299522BCDE8F475"
+					type: "item"
+					item: "minecraft:glass"
+					count: 5L
+				}
+			]
+		}
+		{
+			title: "One Big Boiler"
+			icon: "modern_industrialization:large_steam_boiler"
+			x: 25.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "Upgrade your Steam production."
+			description: ["Build a Large Steam Boiler, a multiblock steam boiler capable of boiling water at a greater rate."]
+			dependencies: ["2830156A7476098E"]
+			size: 1.5d
+			id: "6DFD803DE091CE2E"
+			tasks: [
+				{
+					id: "1FFBB569DBCA8F6A"
+					type: "item"
+					item: "modern_industrialization:large_steam_boiler"
+				}
+				{
+					id: "175A135918AD0D49"
+					type: "item"
+					item: "modern_industrialization:bronze_plated_bricks"
+					count: 24L
+				}
+				{
+					id: "1DD7EF26B6F24D5A"
+					type: "item"
+					item: "modern_industrialization:heatproof_machine_casing"
+					count: 6L
+				}
+				{
+					id: "29919DCB7217C928"
+					type: "item"
+					item: "modern_industrialization:bronze_machine_casing_pipe"
+					count: 2L
+				}
+				{
+					id: "43A943ADA0110D9E"
+					type: "item"
+					item: "modern_industrialization:bronze_item_input_hatch"
+				}
+				{
+					id: "3FFEEECA0984235C"
+					type: "item"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+				}
+				{
+					id: "75E64F523AA42367"
+					type: "item"
+					item: "modern_industrialization:bronze_fluid_output_hatch"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 2.5d
+			dependencies: ["4ED401DC7B620108"]
+			optional: true
+			id: "317A25E4D268A4C8"
+			tasks: [{
+				id: "44FBD659BF7397C7"
+				type: "item"
+				title: "Any 'Modern Industrialization' Item Pipe"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "modern_industrialization:item_pipes"
+					}
+				}
+			}]
+		}
+	]
+}

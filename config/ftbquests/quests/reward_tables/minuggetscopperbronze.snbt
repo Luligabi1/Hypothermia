@@ -1,0 +1,10 @@
+{
+	id: "7E4EC38E484F1870"
+	order_index: 1
+	title: "MiNuggetsCopperBronze"
+	loot_size: 1
+	rewards: [
+		{ item: "modern_industrialization:copper_nugget", count: 3, random_bonus: 3 }
+		{ item: "modern_industrialization:bronze_nugget", count: 3, random_bonus: 3 }
+	]
+}

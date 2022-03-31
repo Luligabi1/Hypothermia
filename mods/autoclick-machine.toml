@@ -1,0 +1,13 @@
+name = "Click Machine (Fabric)"
+filename = "click_machine_1.18.1-fabric-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3606/913/click_machine_1.18.1-fabric-1.1.0.jar"
+hash-format = "murmur2"
+hash = "1666105157"
+
+[update]
+[update.curseforge]
+file-id = 3606913
+project-id = 565529

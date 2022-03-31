@@ -17,16 +17,17 @@
 			y: 0.0d
 			id: "22E27EE07E2EA666"
 			tasks: [{
-				id: "75007C1CD389D824"
+				id: "45119813EDDF0BD0"
 				type: "item"
-				item: "ae2:charged_certus_quartz_crystal"
+				item: "ae2:certus_quartz_crystal"
 				count: 4L
 			}]
 		}
 		{
-			x: 5.0d
+			icon: "ae2:quartz_growth_accelerator"
+			x: 10.0d
 			y: 0.0d
-			dependencies: ["22E27EE07E2EA666"]
+			dependencies: ["13E378E4D50EB00D"]
 			id: "3343648D261E181B"
 			tasks: [
 				{
@@ -35,17 +36,16 @@
 					item: "ae2:quartz_growth_accelerator"
 				}
 				{
-					id: "16CD367238BB1496"
+					id: "19AEF19FBC397E85"
 					type: "item"
-					item: "ae2:fluix_crystal"
-					count: 4L
+					item: "ae2:fluix_crystal_seed"
 				}
 			]
 		}
 		{
 			x: 2.5d
-			y: 2.5d
-			dependencies: ["13E378E4D50EB00D"]
+			y: 0.0d
+			dependencies: ["22E27EE07E2EA666"]
 			id: "7B2D5BC66BB29B07"
 			tasks: [{
 				id: "2CC6E64484D414F8"
@@ -54,34 +54,37 @@
 			}]
 		}
 		{
+			title: "Meteor Hunting \\& Inscribing"
 			icon: "ae2:silicon_press"
-			x: 10.0d
+			x: 5.0d
 			y: 0.0d
-			dependencies: ["4FCFBCC43898B092"]
+			subtitle: "Craft an Inscriber and then find all 4 Inscriber Presses."
+			description: ["Firs"]
+			dependencies: ["7B2D5BC66BB29B07"]
 			id: "65B43773E4E7D594"
 			tasks: [
 				{
-					id: "6A295353DF37C009"
+					id: "421FC3B8466AC990"
 					type: "item"
 					item: "ae2:inscriber"
 				}
 				{
-					id: "421FC3B8466AC990"
+					id: "5465D7F9A8D82182"
 					type: "item"
 					item: "ae2:calculation_processor_press"
 				}
 				{
-					id: "15210C6F5BD16306"
+					id: "026B230B48692240"
 					type: "item"
 					item: "ae2:engineering_processor_press"
 				}
 				{
-					id: "29EA0D164362EF7B"
+					id: "741C2D8A50483513"
 					type: "item"
 					item: "ae2:logic_processor_press"
 				}
 				{
-					id: "4020248FD476684B"
+					id: "09C60775DC8F0166"
 					type: "item"
 					item: "ae2:silicon_press"
 				}
@@ -90,10 +93,10 @@
 		{
 			title: "ME Drive"
 			icon: "ae2:drive"
-			x: 12.5d
+			x: 15.0d
 			y: 0.0d
 			description: ["ME Drives are an essential Storage System component used for storaging your items inside."]
-			dependencies: ["65B43773E4E7D594"]
+			dependencies: ["4FCFBCC43898B092"]
 			id: "3FF67971E4324416"
 			tasks: [{
 				id: "0B4183A4C7968F92"
@@ -109,10 +112,11 @@
 		}
 		{
 			title: "Accepting Energies"
-			x: 2.5d
+			x: 7.5d
 			y: 0.0d
 			subtitle: "Convert your existing energy to Applied Energistics'"
 			description: ["When using Applied Energistics, you must convert your existing energy to Applied's energistics via an Energy Acceptor. To do that, just plug the battery/cable on one side of the Energy Acceptor and a ME fluix cable on the other."]
+			dependencies: ["65B43773E4E7D594"]
 			id: "13E378E4D50EB00D"
 			tasks: [{
 				id: "4A4AFB86E628A673"
@@ -121,26 +125,39 @@
 			}]
 		}
 		{
-			x: 15.0d
+			x: 17.5d
 			y: 0.0d
 			dependencies: ["3FF67971E4324416"]
 			id: "6AFF294917F3306F"
 			tasks: [{
-				id: "2B0C4E8CFA7D131F"
+				id: "70973BD54676B6C6"
 				type: "item"
-				item: "ae2:terminal"
+				item: "ae2:crafting_terminal"
 			}]
 		}
 		{
-			x: 20.0d
+			icon: "ae2:molecular_assembler"
+			x: 22.5d
 			y: 0.0d
 			dependencies: ["36BE5441287A6B03"]
 			id: "45F0301346133A64"
-			tasks: [{
-				id: "17ADB8044CBD9733"
-				type: "item"
-				item: "ae2:molecular_assembler"
-			}]
+			tasks: [
+				{
+					id: "17ADB8044CBD9733"
+					type: "item"
+					item: "ae2:molecular_assembler"
+				}
+				{
+					id: "23CEAB7FE2F6AD50"
+					type: "item"
+					item: "ae2:1k_crafting_storage"
+				}
+				{
+					id: "18F77BE1F9184A83"
+					type: "item"
+					item: "ae2:pattern_provider"
+				}
+			]
 		}
 		{
 			icon: {
@@ -148,9 +165,10 @@
 				Count: 1b
 				tag: { }
 			}
-			x: 25.0d
-			y: 0.0d
+			x: 22.5d
+			y: -2.5d
 			dependencies: ["425E9F1BC0F4486B"]
+			optional: true
 			id: "50320EC1F67210A9"
 			tasks: [
 				{
@@ -176,7 +194,7 @@
 			}]
 		}
 		{
-			x: 17.5d
+			x: 20.0d
 			y: 0.0d
 			subtitle: "Wait, it'll control ME?"
 			dependencies: ["6AFF294917F3306F"]
@@ -188,97 +206,39 @@
 			}]
 		}
 		{
-			x: 22.5d
-			y: 0.0d
-			dependencies: ["45F0301346133A64"]
-			id: "425E9F1BC0F4486B"
-			tasks: [{
-				id: "156B00200776C60C"
-				type: "item"
-				item: "ae2:security_station"
-			}]
-		}
-		{
+			icon: "ae2:security_station"
 			x: 20.0d
-			y: 2.5d
-			dependencies: ["45F0301346133A64"]
-			id: "266ACE7DBAEB60AE"
+			y: -2.5d
+			dependencies: ["36BE5441287A6B03"]
+			optional: true
+			id: "425E9F1BC0F4486B"
 			tasks: [
 				{
-					id: "5BB0DCC36B93357F"
+					id: "156B00200776C60C"
 					type: "item"
-					item: "ae2:crafting_unit"
+					item: "ae2:security_station"
 				}
 				{
-					id: "645BF363F3C110A6"
+					id: "7DEB799AF63A143C"
 					type: "item"
-					item: "ae2:crafting_accelerator"
-				}
-				{
-					id: "489819076B415088"
-					type: "item"
-					item: "ae2:crafting_monitor"
+					item: "ae2:biometric_card"
 				}
 			]
 		}
 		{
-			x: 20.0d
-			y: 5.0d
-			dependencies: ["266ACE7DBAEB60AE"]
-			id: "3980AB70EF0B4AE3"
-			tasks: [{
-				id: "1A10D0AB1850B534"
-				type: "item"
-				item: "ae2:1k_crafting_storage"
-			}]
-		}
-		{
-			x: 20.0d
-			y: 7.5d
-			dependencies: ["3980AB70EF0B4AE3"]
-			id: "33AE374659632349"
-			tasks: [{
-				id: "14D261ABF5CD2866"
-				type: "item"
-				item: "ae2:4k_crafting_storage"
-			}]
-		}
-		{
-			x: 20.0d
-			y: 10.0d
-			dependencies: ["33AE374659632349"]
-			id: "0D6F6069E03EBD3F"
-			tasks: [{
-				id: "1E8E60B02B6B3B27"
-				type: "item"
-				item: "ae2:16k_crafting_storage"
-			}]
-		}
-		{
-			x: 20.0d
-			y: 12.5d
-			dependencies: ["0D6F6069E03EBD3F"]
-			id: "30793F204D64684E"
-			tasks: [{
-				id: "2B683874322295B2"
-				type: "item"
-				item: "ae2:64k_crafting_storage"
-			}]
-		}
-		{
-			x: 15.0d
-			y: -2.5d
-			dependencies: ["6AFF294917F3306F"]
+			x: 22.5d
+			y: 2.5d
+			dependencies: ["45F0301346133A64"]
 			optional: true
-			id: "34CE3934C3F048C1"
+			id: "266ACE7DBAEB60AE"
 			tasks: [{
-				id: "7532E9920FD9AE81"
+				id: "645BF363F3C110A6"
 				type: "item"
-				item: "ae2:crafting_terminal"
+				item: "ae2:crafting_accelerator"
 			}]
 		}
 		{
-			x: 7.5d
+			x: 12.5d
 			y: 0.0d
 			dependencies: ["3343648D261E181B"]
 			id: "4FCFBCC43898B092"
@@ -290,24 +250,9 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 2.5d
-			dependencies: ["3FF67971E4324416"]
-			id: "577EF48E4488D13B"
-			tasks: [{
-				id: "4ACAD12E8C6DFEDA"
-				type: "item"
-				item: {
-					id: "ae2:item_storage_cell_1k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
 			x: 15.0d
 			y: 2.5d
-			dependencies: ["577EF48E4488D13B"]
+			dependencies: ["3FF67971E4324416"]
 			optional: true
 			id: "1CED8A4746B4A960"
 			tasks: [{
@@ -321,9 +266,9 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 2.5d
-			dependencies: ["577EF48E4488D13B"]
+			x: 15.0d
+			y: -2.5d
+			dependencies: ["3FF67971E4324416"]
 			optional: true
 			id: "7EFAE721BA4F6D04"
 			tasks: [{
@@ -337,14 +282,70 @@
 			}]
 		}
 		{
-			x: 10.0d
+			title: "Advanced Inscribing"
+			x: 5.0d
 			y: -2.5d
+			description: ["The Advanced Inscriber is an optional upgrade for AE2's regular Inscriber, with the advantage of being quicker, allowing more than one material on the crafting slot and having more upgrade slots."]
+			dependencies: ["65B43773E4E7D594"]
 			optional: true
 			id: "2FD312F01A66635B"
 			tasks: [{
 				id: "38C4BF7CABF79E4E"
 				type: "item"
 				item: "ae2things:advanced_inscriber"
+			}]
+		}
+		{
+			title: "Mod Information - Applied Energistics 2"
+			icon: "kubejs:info_logo"
+			x: 0.375d
+			y: -0.375d
+			shape: "circle"
+			subtitle: "Click here for information on this Chapter's mod!"
+			description: ["Applied Energistics 2 by Team Applied Energistics is a mod centered around digital storage of items and its manipulation: AE2 is capable of storing millions of items and fluids with minimal physical structure, featuring wireless connection and even autocrafting!"]
+			size: 0.5d
+			id: "12721CBB4184323F"
+			tasks: [{
+				id: "11F38599B768B3C8"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 25.0d
+			y: 2.5d
+			dependencies: ["266ACE7DBAEB60AE"]
+			optional: true
+			id: "2B7DAF0B241676DC"
+			tasks: [{
+				id: "4F70CD6BA67FB242"
+				type: "item"
+				item: "ae2:crafting_monitor"
+			}]
+		}
+		{
+			icon: "ae2:blank_pattern"
+			x: 25.0d
+			y: 0.0d
+			shape: "octagon"
+			dependencies: ["45F0301346133A64"]
+			size: 1.5d
+			id: "29D3793CE7C51CDD"
+			tasks: [
+				{
+					id: "2283051700765CE8"
+					type: "item"
+					item: "ae2:pattern_encoding_terminal"
+				}
+				{
+					id: "08251BDEBD339B9F"
+					type: "item"
+					item: "ae2:blank_pattern"
+				}
+			]
+			rewards: [{
+				id: "4C0AFBB5E598CF6A"
+				type: "item"
+				item: "ae2:blank_pattern"
 			}]
 		}
 	]

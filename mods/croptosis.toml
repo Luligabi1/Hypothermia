@@ -1,0 +1,13 @@
+name = "Croptosis"
+filename = "wraith-croptosis-1.4.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3570/324/wraith-croptosis-1.4.2.jar"
+hash-format = "murmur2"
+hash = "88585971"
+
+[update]
+[update.curseforge]
+file-id = 3570324
+project-id = 437552

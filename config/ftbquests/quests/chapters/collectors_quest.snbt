@@ -4,722 +4,190 @@
 	order_index: 0
 	filename: "collectors_quest"
 	title: "Collector's Quest"
-	icon: {
-		id: "iron-jetpacks:creative_jetpack"
-		Count: 1b
-		tag: {
-			energy: 0
-		}
-	}
+	icon: "staffofbuilding:infinite_builder_staff"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
-		{
-			title: "Smelting Pain"
-			icon: "indrev:electric_furnace_creative"
-			x: 2.5d
-			y: 0.0d
-			dependencies: ["0C4BC737100579C0"]
-			id: "3FF5D3280D765CE4"
-			tasks: [
-				{
-					id: "09EE288BEFD9B47A"
-					type: "item"
-					item: "minecraft:furnace"
-				}
-				{
-					id: "41D241C424E7F79F"
-					type: "item"
-					item: "minecraft:blast_furnace"
-				}
-				{
-					id: "4BFEF06BEBF1B6D3"
-					type: "item"
-					item: "indrev:electric_furnace_mk1"
-				}
-				{
-					id: "066C7608E11E52D5"
-					type: "item"
-					item: "indrev:electric_furnace_mk2"
-				}
-				{
-					id: "0F4254FD3812291A"
-					type: "item"
-					item: "indrev:electric_furnace_mk3"
-				}
-				{
-					id: "539EF0780475EFCE"
-					type: "item"
-					item: "indrev:electric_furnace_mk4"
-				}
-				{
-					id: "42EFAB44217A1919"
-					type: "item"
-					item: "indrev:electric_furnace_factory_mk4"
-				}
-				{
-					id: "7A0D45FC0CE36DE9"
-					type: "item"
-					item: "techreborn:electric_furnace"
-				}
-				{
-					id: "3091571A779AF0C0"
-					type: "item"
-					item: "techreborn:industrial_blast_furnace"
-				}
-				{
-					id: "18BD90E46FF276FD"
-					type: "item"
-					item: "techreborn:iron_alloy_furnace"
-				}
-				{
-					id: "6763B33A58719A81"
-					type: "item"
-					item: "techreborn:iron_furnace"
-				}
-				{
-					id: "371BE41AD61E80D2"
-					type: "item"
-					item: "fabric-furnaces:fabric_furnace"
-				}
-				{
-					id: "67B7F864DD223D45"
-					type: "item"
-					item: "fabric-furnaces:iron_furnace"
-				}
-				{
-					id: "5A009D6587C8762E"
-					type: "item"
-					item: "fabric-furnaces:gold_furnace"
-				}
-				{
-					id: "695B0D849DF2DBF5"
-					type: "item"
-					item: "fabric-furnaces:diamond_furnace"
-				}
-				{
-					id: "7E31AD6BB1D05BA4"
-					type: "item"
-					item: "fabric-furnaces:obsidian_furnace"
-				}
-				{
-					id: "77EFCB7C8CC64476"
-					type: "item"
-					item: "fabric-furnaces:nether_furnace"
-				}
-				{
-					id: "20B5D2E276349CE9"
-					type: "item"
-					item: "fabric-furnaces:emerald_furnace"
-				}
-				{
-					id: "1E2AB1A3EAABBB04"
-					type: "item"
-					item: "fabric-furnaces:end_furnace"
-				}
-				{
-					id: "25406ADCE529BD62"
-					type: "item"
-					item: "fabric-furnaces:ethereal_furnace"
-				}
-				{
-					id: "1898E1F66915F019"
-					type: "item"
-					item: "fabric-furnaces:crystal_fabric_furnace"
-				}
-				{
-					id: "73C5D3B7980DD6F0"
-					type: "item"
-					item: "fabric-furnaces:crystal_iron_furnace"
-				}
-				{
-					id: "1D0429E45626679D"
-					type: "item"
-					item: "fabric-furnaces:crystal_gold_furnace"
-				}
-				{
-					id: "20979594A3BF54F1"
-					type: "item"
-					item: "fabric-furnaces:crystal_diamond_furnace"
-				}
-				{
-					id: "724BB19BCAB900AD"
-					type: "item"
-					item: "fabric-furnaces:crystal_obsidian_furnace"
-				}
-				{
-					id: "0B292F5912C48B88"
-					type: "item"
-					item: "fabric-furnaces:crystal_nether_furnace"
-				}
-				{
-					id: "20610B20C8D74E9F"
-					type: "item"
-					item: "fabric-furnaces:crystal_emerald_furnace"
-				}
-				{
-					id: "57E8F62BC659C458"
-					type: "item"
-					item: "fabric-furnaces:crystal_end_furnace"
-				}
-				{
-					id: "7F9C61D08EE2D257"
-					type: "item"
-					item: "fabric-furnaces:crystal_ethereal_furnace"
-				}
-				{
-					id: "5985FB12A36AEDA1"
-					type: "item"
-					item: "betternether:netherrack_furnace"
-				}
-				{
-					id: "75A068DED0D28FDD"
-					type: "item"
-					item: "betternether:basalt_furnace"
-				}
-				{
-					id: "0446AC1FF846CDED"
-					type: "item"
-					item: "betternether:blackstone_furnace"
-				}
-				{
-					id: "6F6716B9C7F8CCF4"
-					type: "item"
-					item: "betterend:end_stone_furnace"
-				}
-				{
-					id: "0B25669658BE31FA"
-					type: "item"
-					item: "betterend:flavolite_furnace"
-				}
-				{
-					id: "3DE7328EDDF57FE3"
-					type: "item"
-					item: "betterend:violecite_furnace"
-				}
-				{
-					id: "720F733170A2C991"
-					type: "item"
-					item: "betterend:sulphuric_rock_furnace"
-				}
-				{
-					id: "5A41F7ECC5C3366D"
-					type: "item"
-					item: "betterend:virid_jadestone_furnace"
-				}
-				{
-					id: "544814ECF6902129"
-					type: "item"
-					item: "betterend:azure_jadestone_furnace"
-				}
-				{
-					id: "0703DED9C338946F"
-					type: "item"
-					item: "betterend:sandy_jadestone_furnace"
-				}
-			]
-			rewards: [{
-				id: "66AFCCCA680C65C3"
-				type: "item"
-				item: "indrev:electric_furnace_creative"
-			}]
-		}
-		{
-			title: "Jetpack-included Pain"
-			icon: {
-				id: "iron-jetpacks:creative_jetpack"
-				Count: 1b
-				tag: {
-					energy: 0
-				}
-			}
-			x: -2.0d
-			y: -2.0d
-			subtitle: "You wish you could fly away from your problems, don't you?"
-			dependencies: ["0C4BC737100579C0"]
-			id: "0E93591498E3B837"
-			tasks: [
-				{
-					id: "5166BE0400D61A9C"
-					type: "item"
-					item: {
-						id: "iron-jetpacks:wood_jetpack"
-						Count: 1b
-						tag: {
-							energy: 0
-						}
-					}
-				}
-				{
-					id: "0EF88D5A9B7B1508"
-					type: "item"
-					item: {
-						id: "iron-jetpacks:stone_jetpack"
-						Count: 1b
-						tag: {
-							energy: 0
-						}
-					}
-				}
-				{
-					id: "0EEE1B636D9BCCA3"
-					type: "item"
-					item: {
-						id: "iron-jetpacks:copper_jetpack"
-						Count: 1b
-						tag: {
-							energy: 0
-						}
-					}
-				}
-				{
-					id: "43762B7B8D95D9C7"
-					type: "item"
-					item: {
-						id: "iron-jetpacks:bronze_jetpack"
-						Count: 1b
-						tag: {
-							energy: 0
-						}
-					}
-				}
-				{
-					id: "5EE5F7EF0D7093A3"
-					type: "item"
-					item: {
-						id: "iron-jetpacks:iron_jetpack"
-						Count: 1b
-						tag: {
-							energy: 0
-						}
-					}
-				}
-				{
-					id: "3F2B4DD4D7D2AE25"
-					type: "item"
-					item: {
-						id: "iron-jetpacks:silver_jetpack"
-						Count: 1b
-						tag: {
-							energy: 0
-						}
-					}
-				}
-				{
-					id: "1FBE36E9D450CFCC"
-					type: "item"
-					item: {
-						id: "iron-jetpacks:electrum_jetpack"
-						Count: 1b
-						tag: {
-							energy: 0
-						}
-					}
-				}
-				{
-					id: "735B824AD716E387"
-					type: "item"
-					item: {
-						id: "iron-jetpacks:gold_jetpack"
-						Count: 1b
-						tag: {
-							energy: 0
-						}
-					}
-				}
-				{
-					id: "26D5AE2302649CCC"
-					type: "item"
-					item: {
-						id: "iron-jetpacks:invar_jetpack"
-						Count: 1b
-						tag: {
-							energy: 0
-						}
-					}
-				}
-				{
-					id: "24C07283E09C9DB9"
-					type: "item"
-					item: {
-						id: "iron-jetpacks:steel_jetpack"
-						Count: 1b
-						tag: {
-							energy: 0
-						}
-					}
-				}
-				{
-					id: "46DFF397B6BA2FC0"
-					type: "item"
-					item: {
-						id: "iron-jetpacks:diamond_jetpack"
-						Count: 1b
-						tag: {
-							energy: 0
-						}
-					}
-				}
-				{
-					id: "3DD268831BFF2F64"
-					type: "item"
-					item: {
-						id: "iron-jetpacks:platinum_jetpack"
-						Count: 1b
-						tag: {
-							energy: 0
-						}
-					}
-				}
-				{
-					id: "5EA14D2D1D882ABE"
-					type: "item"
-					item: {
-						id: "iron-jetpacks:emerald_jetpack"
-						Count: 1b
-						tag: {
-							energy: 0
-						}
-					}
-				}
-				{
-					id: "1141F249601E2268"
-					type: "item"
-					item: {
-						id: "iron-jetpacks:netherite_jetpack"
-						Count: 1b
-						tag: {
-							energy: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "11472225CDF21B60"
-				type: "item"
-				item: {
-					id: "iron-jetpacks:creative_jetpack"
-					Count: 1b
-					tag: {
-						energy: 0
-					}
-				}
-			}]
-		}
-		{
-			title: "Digitally Storaged Pain"
-			icon: "ae2:creative_item_cell"
-			x: -2.5d
-			y: 0.0d
-			subtitle: "Even more space to store it..."
-			dependencies: ["0C4BC737100579C0"]
-			id: "7B8476526F14506E"
-			tasks: [
-				{
-					id: "02040FE60DF3FD65"
-					type: "item"
-					item: {
-						id: "ae2:item_storage_cell_1k"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "0962241DDECFA690"
-					type: "item"
-					item: {
-						id: "ae2:fluid_storage_cell_1k"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "5A2DF6CC35DC509F"
-					type: "item"
-					item: {
-						id: "ae2:item_storage_cell_4k"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "44C8BE91950AF09D"
-					type: "item"
-					item: {
-						id: "ae2:fluid_storage_cell_4k"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "0579618F4CE523D7"
-					type: "item"
-					item: {
-						id: "ae2:item_storage_cell_16k"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "6EF9F30F0326B4AA"
-					type: "item"
-					item: {
-						id: "ae2:fluid_storage_cell_16k"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "7CDF85626ED4ED65"
-					type: "item"
-					item: {
-						id: "ae2:item_storage_cell_64k"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "4BA3096D57F882E4"
-					type: "item"
-					item: {
-						id: "ae2:fluid_storage_cell_64k"
-						Count: 1b
-						tag: { }
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "4143E2BFFAB1EA73"
-					type: "item"
-					item: "ae2:creative_item_cell"
-				}
-				{
-					id: "4F5D531B6D66F600"
-					type: "item"
-					item: "ae2:creative_fluid_cell"
-				}
-			]
-		}
-		{
-			title: "Compressing Pain"
-			icon: "indrev:compressor_creative"
-			x: 2.0d
-			y: 2.0d
-			dependencies: ["0C4BC737100579C0"]
-			id: "242279D0C48998E5"
-			rewards: [{
-				id: "1BB9F971CB6CC542"
-				type: "item"
-				item: "indrev:compressor_creative"
-			}]
-		}
-		{
-			icon: "indrev:lazuli_flux_container_creative"
-			x: 0.0d
-			y: 2.5d
-			dependencies: [
-				"0C4BC737100579C0"
-				"10B499CDF3A2094C"
-			]
-			id: "6AB245D444656092"
-			tasks: [
-				{
-					id: "12A85FF4C7D76530"
-					type: "item"
-					item: "indrev:lazuli_flux_container_mk1"
-				}
-				{
-					id: "7A806E95702E54B4"
-					type: "item"
-					item: "indrev:lazuli_flux_container_mk2"
-				}
-				{
-					id: "5A1E9658F7CC40ED"
-					type: "item"
-					item: "indrev:lazuli_flux_container_mk3"
-				}
-				{
-					id: "3FB2156463753424"
-					type: "item"
-					item: "indrev:lazuli_flux_container_mk4"
-				}
-				{
-					id: "7554C5C8962D61C3"
-					type: "item"
-					item: "techreborn:low_voltage_su"
-				}
-				{
-					id: "297A6357BCD8F074"
-					type: "item"
-					item: "techreborn:medium_voltage_su"
-				}
-				{
-					id: "4EF63E825223AA91"
-					type: "item"
-					item: "techreborn:high_voltage_su"
-				}
-				{
-					id: "54572F5806111766"
-					type: "item"
-					item: "techreborn:adjustable_su"
-				}
-				{
-					id: "10D7F3C4444E7AA6"
-					type: "item"
-					item: "techreborn:interdimensional_su"
-				}
-				{
-					id: "6E5725C1CBA644DF"
-					type: "item"
-					item: "techreborn:lapotronic_su"
-				}
-				{
-					id: "7DAF7CE49CA5F8FA"
-					type: "item"
-					item: "techreborn:lsu_storage"
-				}
-			]
-			rewards: [{
-				id: "63D6CC634CA10F44"
-				type: "item"
-				item: "indrev:lazuli_flux_container_creative"
-			}]
-		}
-		{
-			title: "Burning Pain"
-			icon: "techreborn:creative_solar_panel"
-			x: 0.0d
-			y: -2.5d
-			dependencies: ["0C4BC737100579C0"]
-			id: "04AD261719A1FFFA"
-			tasks: [
-				{
-					id: "7DE1E00688AAE313"
-					type: "item"
-					item: "techreborn:basic_solar_panel"
-				}
-				{
-					id: "042745DE68EB1C9B"
-					type: "item"
-					item: "techreborn:advanced_solar_panel"
-				}
-				{
-					id: "118473B2CFE8576B"
-					type: "item"
-					item: "techreborn:industrial_solar_panel"
-				}
-				{
-					id: "10B499CDF3A2094C"
-					type: "item"
-					item: "techreborn:ultimate_solar_panel"
-				}
-				{
-					id: "23D911F69302136B"
-					type: "item"
-					item: "techreborn:quantum_solar_panel"
-				}
-				{
-					id: "652C90CBA57812C0"
-					type: "item"
-					item: "indrev:solar_generator_mk1"
-				}
-				{
-					id: "660CCA48C42316CF"
-					type: "item"
-					item: "indrev:solar_generator_mk3"
-				}
-			]
-			rewards: [{
-				id: "6B83E3AA917239A2"
-				type: "item"
-				item: "techreborn:creative_solar_panel"
-			}]
-		}
-		{
-			title: "Fluid Pain"
-			icon: "techreborn:creative_tank_unit"
-			x: -2.0d
-			y: 2.0d
-			subtitle: "At least you'll have a place to store it, yay?"
-			description: [""]
-			dependencies: ["0C4BC737100579C0"]
-			id: "0089316DE4BB16BB"
-			tasks: [
-				{
-					id: "2D177C2822A46D03"
-					type: "item"
-					item: "techreborn:basic_tank_unit"
-				}
-				{
-					id: "306683668C9983E6"
-					type: "item"
-					item: "techreborn:advanced_tank_unit"
-				}
-				{
-					id: "7C2E8537AE265596"
-					type: "item"
-					item: "techreborn:industrial_tank_unit"
-				}
-				{
-					id: "53D3AF0C1770457E"
-					type: "item"
-					item: "techreborn:quantum_tank_unit"
-				}
-				{
-					id: "03B9137E125672FD"
-					type: "item"
-					item: {
-						id: "kibe:tank"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "1F8AB615430930DE"
-					type: "item"
-					item: {
-						id: "indrev:tank"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "7411A9EFD17F7D35"
-					type: "item"
-					item: "kibe:entangled_tank"
-				}
-			]
-			rewards: [{
-				id: "32953FAB6F5A6BC8"
-				type: "item"
-				item: "techreborn:creative_tank_unit"
-			}]
-		}
-		{
-			title: "Grinding Pain"
-			icon: "indrev:pulverizer_creative"
-			x: 2.0d
-			y: -2.0d
-			dependencies: ["0C4BC737100579C0"]
-			id: "31E912566D590FBB"
-			rewards: [{
-				id: "79DF80B11823DBF7"
-				type: "item"
-				item: "indrev:pulverizer_creative"
-			}]
-		}
 		{
 			title: "Collector's Quest"
 			x: 0.0d
 			y: 0.0d
 			shape: "hexagon"
 			description: ["Welcome to the Collector's Quest. This is an extra chapter to obtain creative-only items by collecting every variant of the same material existing."]
-			size: 1.5d
 			id: "0C4BC737100579C0"
 			tasks: [{
 				id: "4CA99942A038EA19"
 				type: "checkmark"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -16.0d
+			id: "3895AD0EE0214F8D"
+			tasks: [{
+				id: "7DDCC5E66DFB85DA"
+				type: "item"
+				item: "techreborn:creative_storage_unit"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -15.0d
+			id: "736FD11FD28AB544"
+			tasks: [{
+				id: "0A3E22F908A37914"
+				type: "item"
+				item: "iron-jetpacks:creative_jetpack"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -16.0d
+			id: "47C5350247017C5E"
+			tasks: [{
+				id: "2E2F3AEAF6209526"
+				type: "item"
+				item: "techreborn:creative_tank_unit"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -14.0d
+			id: "0AF3788D214DE9B3"
+			tasks: [{
+				id: "3897F9C70A258664"
+				type: "item"
+				item: "ae2:creative_item_cell"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -14.0d
+			id: "3984F6C8CB869931"
+			tasks: [{
+				id: "75A2E3544D6E1125"
+				type: "item"
+				item: "ae2:creative_fluid_cell"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -13.0d
+			id: "1C9B834C8186FAE1"
+			tasks: [{
+				id: "19AADFECE088AE7B"
+				type: "item"
+				item: "staffofbuilding:infinite_builder_staff"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -17.0d
+			id: "68EE297035C9BD40"
+			tasks: [{
+				id: "532E9072D702A048"
+				type: "item"
+				item: "indrev:pulverizer_creative"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -17.0d
+			id: "5F5E5E101E25F73A"
+			tasks: [{
+				id: "21660B320B0B36A2"
+				type: "item"
+				item: "indrev:electric_furnace_creative"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -17.0d
+			id: "550EB8AA1CFF169D"
+			tasks: [{
+				id: "74A10CDF511AEFB8"
+				type: "item"
+				item: "indrev:compressor_creative"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -17.0d
+			id: "5B3F4D3EEFE942FE"
+			tasks: [{
+				id: "51A1CA84C5EDAEF6"
+				type: "item"
+				item: "indrev:solid_infuser_creative"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -17.0d
+			id: "4DC757632FE60824"
+			tasks: [{
+				id: "594FA8289E68C51F"
+				type: "item"
+				item: "indrev:fluid_infuser_creative"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -17.0d
+			id: "3B88563A392192BC"
+			tasks: [{
+				id: "27D1FF5BEEF17AC0"
+				type: "item"
+				item: "indrev:slaughter_creative"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -17.0d
+			id: "7140553F24220982"
+			tasks: [{
+				id: "2EC511A1223B6FC5"
+				type: "item"
+				item: "indrev:farmer_creative"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -17.0d
+			id: "330C427C984386A6"
+			tasks: [{
+				id: "4864F11B0AF8D277"
+				type: "item"
+				item: "indrev:chopper_creative"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -17.0d
+			id: "1BD8EFBFBBA582E4"
+			tasks: [{
+				id: "0A9F7473E2A11167"
+				type: "item"
+				item: "indrev:sawmill_creative"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -17.0d
+			id: "6FDD8229F4301F95"
+			tasks: [{
+				id: "2300C893A7E60351"
+				type: "item"
+				item: "indrev:rancher_creative"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -13.0d
+			id: "18859C8DB68DA2C8"
+			tasks: [{
+				id: "62B80465479F117A"
+				type: "item"
+				item: "indrev:lazuli_flux_container_creative"
 			}]
 		}
 	]

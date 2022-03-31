@@ -1,13 +1,13 @@
 name = "Conjuring [Fabric/Forge]"
-filename = "conjuring-1.0.19+1.18.jar"
+filename = "conjuring-1.0.20+1.18.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3606/326/conjuring-1.0.19+1.18.jar"
+url = "https://edge.forgecdn.net/files/3615/193/conjuring-1.0.20+1.18.jar"
 hash-format = "murmur2"
-hash = "2857571480"
+hash = "2279599039"
 
 [update]
 [update.curseforge]
-file-id = 3606326
+file-id = 3615193
 project-id = 422310

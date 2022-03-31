@@ -1,0 +1,13 @@
+name = "⚒️ On A Stick [FABRIC]"
+filename = "onastick-fabric-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3590/716/onastick-fabric-2.0.0.jar"
+hash-format = "murmur2"
+hash = "3265376575"
+
+[update]
+[update.curseforge]
+file-id = 3590716
+project-id = 550544

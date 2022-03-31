@@ -1,0 +1,13 @@
+name = "EZ Pipes and Stuff (EZPaS)"
+filename = "ezpas-2.0.1-1.18.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3583/333/ezpas-2.0.1-1.18.1.jar"
+hash-format = "murmur2"
+hash = "1227163970"
+
+[update]
+[update.curseforge]
+file-id = 3583333
+project-id = 381973

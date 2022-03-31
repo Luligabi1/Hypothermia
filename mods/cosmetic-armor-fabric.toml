@@ -1,13 +1,13 @@
 name = "Cosmetic Armor [FABRIC]"
-filename = "CosmeticArmor-1.18-1.2.0.jar"
+filename = "CosmeticArmor-1.18-1.2.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3544/655/CosmeticArmor-1.18-1.2.0.jar"
+url = "https://edge.forgecdn.net/files/3620/223/CosmeticArmor-1.18-1.2.1.jar"
 hash-format = "murmur2"
-hash = "880031419"
+hash = "3372751620"
 
 [update]
 [update.curseforge]
-file-id = 3544655
+file-id = 3620223
 project-id = 436659

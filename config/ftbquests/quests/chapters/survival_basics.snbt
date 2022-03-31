@@ -52,7 +52,6 @@
 				{
 					id: "4237BA978AFBE744"
 					type: "choice"
-					table_id: 8705532537484312360L
 				}
 			]
 		}
@@ -71,7 +70,6 @@
 			title: "Crafting on The Fly"
 			x: 2.5d
 			y: -2.5d
-			subtitle: "Craft a Pocket Crafting Table."
 			description: ["While on the wild searching for resources, you might need to craft something on the fly. For that, you might want a pocket crafting table."]
 			dependencies: ["104815999D42C27B"]
 			optional: true
@@ -79,24 +77,7 @@
 			tasks: [{
 				id: "7DD59587AB6D7688"
 				type: "item"
-				item: "kibe:pocket_crafting_table"
-			}]
-		}
-		{
-			title: "Light of Hope"
-			x: 25.0d
-			y: 0.0d
-			shape: "octagon"
-			size: 1.5d
-			id: "4A2FF30A025DB1BB"
-			tasks: [{
-				id: "0D484A05A064AADC"
-				type: "item"
-				item: "kibe:big_torch"
-			}]
-			rewards: [{
-				id: "130AF2620A070546"
-				type: "choice"
+				item: "onastick:crafting_table_on_a_stick"
 			}]
 		}
 		{
@@ -123,18 +104,19 @@
 			title: "All In One Tools"
 			x: 7.5d
 			y: -2.5d
-			description: ["AIOTs (All in One Tools) are 5 in 1 tools: A sword, pickaxe, axe, shovel and hoe - all in one slot. For this quest you must craft a stone AIOT, but other materials are available!"]
+			description: ["AIOTs (All in One Tools) are 5 in 1 tools: A sword, pickaxe, axe, shovel and hoe - all in one slot."]
 			dependencies: ["03602DD4FB141B8F"]
 			optional: true
 			id: "6E20F698430742E6"
 			tasks: [{
 				id: "32F5CECB56A93309"
 				type: "item"
+				title: "AIOT"
 				item: {
-					id: "basicaiots:stone_aiot"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
+						value: "hypothermia:aiots"
 					}
 				}
 			}]
@@ -143,18 +125,19 @@
 			title: "Hammers"
 			x: 10.0d
 			y: -2.5d
-			description: ["Hammers are pickaxe-like tools that break blocks on a 3x3 area. For this quest you must craft a stone hammer, but other materials are available!"]
+			description: ["Hammers are pickaxe-like tools that break blocks on a 3x3 area."]
 			dependencies: ["6E20F698430742E6"]
 			optional: true
 			id: "36DFC3455D4DE4A2"
 			tasks: [{
 				id: "4CCBEA51FBD155F6"
 				type: "item"
+				title: "Hammer"
 				item: {
-					id: "vanilla-hammers:stone_hammer"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
+						value: "modern_industrialization:forge_hammer_tools"
 					}
 				}
 			}]
@@ -163,18 +146,19 @@
 			title: "Excavators"
 			x: 12.5d
 			y: -2.5d
-			description: ["Excavators are shovel-like tools that break blocks on a 3x3 area. For this quest you must craft a stone excavator, but other materials are available!"]
+			description: ["Excavators are shovel-like tools that break blocks on a 3x3 area."]
 			dependencies: ["36DFC3455D4DE4A2"]
 			optional: true
 			id: "6F59E0C456766549"
 			tasks: [{
 				id: "79EA3E904AFAE443"
 				type: "item"
+				title: "Excavator"
 				item: {
-					id: "vanillaexcavators:stone_excavator"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 0
+						value: "hypothermia:excavators"
 					}
 				}
 			}]

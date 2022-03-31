@@ -14,9 +14,20 @@
 
 
 const HIDDEN_ITEMS = [
-	"kibe:magma_ring",
+	"kibe:pocket_crafting_table",
+	
+	
 	"kibe:water_ring",
-	"kibe:light_ring"];
+	
+	
+	"kubejs:info_logo",
+	"kubejs:dummy_fluid_item",
+	"ftbquests:lootcrate",
+	"ftbquests:missing_item",
+	"ftbquests:custom_icon",
+	"ftbquests:barrier",
+	"ftbquests:stage_barrier",
+	"ftbquests:detector"];
 
 onEvent('kjsextras_rei', (event) => {
     HIDDEN_ITEMS.forEach(id => event.remove(id));

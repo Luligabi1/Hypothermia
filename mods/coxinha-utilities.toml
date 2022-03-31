@@ -1,0 +1,13 @@
+name = "Coxinha Utilities"
+filename = "coxinhautilities-1.0+1.18.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3637/978/coxinhautilities-1.0+1.18.jar"
+hash-format = "murmur2"
+hash = "2404064591"
+
+[update]
+[update.curseforge]
+file-id = 3637978
+project-id = 576449

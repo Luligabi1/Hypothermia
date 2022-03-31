@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 10.0d
-			y: 0.0d
+			x: 5.0d
+			y: 5.0d
 			id: "78E0BF40FEF08F9B"
 			tasks: [{
 				id: "4D7B1CEF06443296"
@@ -20,8 +20,8 @@
 		}
 		{
 			title: "Ignorant Conjuring"
-			x: 12.0d
-			y: -2.0d
+			x: 6.5d
+			y: 3.5d
 			subtitle: "Ignorance might be an actual bliss in this case..."
 			dependencies: ["78E0BF40FEF08F9B"]
 			id: "0F697A01B2950B80"
@@ -33,8 +33,8 @@
 		}
 		{
 			title: "Wide Conjuring"
-			x: 12.0d
-			y: 2.0d
+			x: 6.5d
+			y: 6.5d
 			dependencies: ["78E0BF40FEF08F9B"]
 			id: "70E848D64EFF7813"
 			tasks: [{
@@ -45,8 +45,8 @@
 		}
 		{
 			title: "Abundant Conjuring"
-			x: 8.0d
-			y: 2.0d
+			x: 3.5d
+			y: 6.5d
 			dependencies: ["78E0BF40FEF08F9B"]
 			id: "41B28445EFCBAF4E"
 			tasks: [{
@@ -57,14 +57,111 @@
 		}
 		{
 			title: "Rapid Conjuring"
-			x: 8.0d
-			y: -2.0d
+			x: 3.5d
+			y: 3.5d
 			dependencies: ["78E0BF40FEF08F9B"]
 			id: "3979EC91204363F9"
 			tasks: [{
 				id: "4C2DFE4A4D9C3DFF"
 				type: "item"
 				item: "conjuring:haste_gem"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "How many unoriginal Forge jokes do you want?"
+			id: "48EF8FD262470856"
+			tasks: [{
+				id: "29B1419F334ABBD1"
+				type: "item"
+				item: "conjuring:soulfire_forge"
+			}]
+			rewards: [{
+				id: "3E02CC17EB528399"
+				type: "item"
+				item: {
+					id: "conjuring:enchiridion"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			id: "1FA628180CABA4CA"
+			tasks: [
+				{
+					id: "23F316373DCA46EF"
+					type: "item"
+					item: "conjuring:conjurer"
+				}
+				{
+					id: "20575B8F270223F4"
+					type: "item"
+					item: "conjuring:conjuring_scepter"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "2C29D240340E3315"
+			tasks: [{
+				id: "32F1EFE2EFC1DDAB"
+				type: "item"
+				item: "conjuring:lesser_conjuration_essence"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			id: "112D7D60E3E2182F"
+			tasks: [{
+				id: "499201745DD1B2C1"
+				type: "item"
+				item: {
+					id: "conjuring:conjuring_focus"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			id: "20CEA0E7F5250C9E"
+			tasks: [{
+				id: "3C80265D302D198B"
+				type: "item"
+				item: "conjuring:gem_tinkerer"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			optional: true
+			id: "6B34BA5CE1A6B62B"
+			tasks: [{
+				id: "45A9A3A69CB2162B"
+				type: "item"
+				item: {
+					id: "conjuring:stabilized_conjuring_focus"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			optional: true
+			id: "404B343CF60EFFF2"
+			tasks: [{
+				id: "735DA5AE623599D0"
+				type: "item"
+				item: "conjuring:superior_conjuring_scepter"
 			}]
 		}
 	]

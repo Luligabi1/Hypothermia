@@ -1,0 +1,77 @@
+{
+	id: "6AF4D3FF8BFDB3AF"
+	group: "613832B2967BEC39"
+	order_index: 2
+	filename: "the_electric_age"
+	title: "The Electric Age"
+	icon: "modern_industrialization:tin_wire"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "62DC34A896988475"
+			tasks: [{
+				id: "464A0A12A289EA8B"
+				type: "item"
+				item: "modern_industrialization:lv_steam_turbine"
+			}]
+		}
+		{
+			title: "Mill your Wires!"
+			icon: "modern_industrialization:electric_wiremill"
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Twice a day, after you eat."
+			id: "45D15BDE7125AF24"
+			tasks: [
+				{
+					id: "3FCE68F67203832E"
+					type: "item"
+					title: "Any 'Modern Industrialization' Wiremill"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "hypothermia:mi_wiremill"
+						}
+					}
+				}
+				{
+					id: "7EC1AA21F1E6CFE9"
+					type: "item"
+					title: "Any 'Modern Industrialization' Low Voltage Cable"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "hypothermia:mi_lv_cable"
+						}
+					}
+					count: 6L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "622CA3BFB35A345C"
+			tasks: [{
+				id: "599827945555123A"
+				type: "item"
+				item: "modern_industrialization:assembler"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			id: "141074F209DBB5DA"
+			tasks: [{
+				id: "220D2635D74DF2B8"
+				type: "item"
+				item: "modern_industrialization:polarizer"
+			}]
+		}
+	]
+}

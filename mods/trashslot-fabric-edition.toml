@@ -1,0 +1,13 @@
+name = "TrashSlot (Fabric Edition)"
+filename = "trashslot-fabric-1.18-11.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3584/918/trashslot-fabric-1.18-11.0.1.jar"
+hash-format = "murmur2"
+hash = "1869244263"
+
+[update]
+[update.curseforge]
+file-id = 3584918
+project-id = 547689

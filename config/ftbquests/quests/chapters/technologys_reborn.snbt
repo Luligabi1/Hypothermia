@@ -23,6 +23,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0A0535FAF253BA2A"
+				type: "item"
+				item: {
+					id: "techreborn:manual"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"this is just a Wiki link, but ey, free book?\"}"
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: 2.5d

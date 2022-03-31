@@ -13,10 +13,10 @@
 // just please don't copy it in its entirety. - Luligabi1
 
 
-settings.logAddedRecipes = true
+settings.logAddedRecipes = false
 settings.logRemovedRecipes = true
-settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
+settings.logSkippedRecipes = false
 
 onEvent('recipes', (event) => {
 	
@@ -63,39 +63,40 @@ onEvent('recipes', (event) => {
 		[null, "minecraft:leather", null]
 	]);
 	
+	
+	// kibe:pocket_trashcan
+	event.remove({ output: "kibe:pocket_trash_can" });
+	event.shapeless('kibe:pocket_trash_can', ['#c:wooden_rods', 'kibe:trash_can']);
+	
+	// Remove kibe:pocket_crafting_table (use On a Stick's instead)
+	event.remove({ output: "kibe:pocket_crafting_table" });
+	
 	/*
 		CHAPTER DELTA - APPLIED ENERGISTICS 2
 	*/
 	
-	// ae2:calculation_processor_press
-	event.shaped("ae2:calculation_processor_press", [
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"],
-		["#c:iron_plates", "ae2:certus_quartz_crystal", "#c:iron_plates"],
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"]
+	// ae2:inscriber
+	event.remove({ output: "ae2:inscriber" });
+	event.shaped("ae2:inscriber", [
+		["minecraft:iron_ingot", "minecraft:sticky_piston", "minecraft:iron_ingot"],
+		["ae2:fluix_crystal", null, "minecraft:iron_ingot"],
+		["minecraft:iron_ingot", "minecraft:sticky_piston", "minecraft:iron_ingot"]
 	]);
 	
-	// ae2:engineering_processor_press
-	event.shaped("ae2:engineering_processor_press", [
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"],
-		["#c:iron_plates", "minecraft:diamond", "#c:iron_plates"],
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"]
+	event.shaped("ae2:inscriber", [
+		["minecraft:iron_ingot", "minecraft:sticky_piston", "minecraft:iron_ingot"],
+		["minecraft:iron_ingot", null, "ae2:fluix_crystal"],
+		["minecraft:iron_ingot", "minecraft:sticky_piston", "minecraft:iron_ingot"]
 	]);
 	
-	// ae2:logic_processor_press
-	event.shaped("ae2:logic_processor_press", [
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"],
-		["#c:iron_plates", "#c:gold_ingots", "#c:iron_plates"],
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"]
+	// ae2things:advanced_inscriber
+	event.remove({ output: "ae2things:advanced_inscriber" });
+	event.shaped("ae2things:advanced_inscriber", [
+		["minecraft:iron_ingot", "minecraft:hopper", "minecraft:iron_ingot"],
+		["ae2:engineering_processor", "ae2:inscriber", "ae2:engineering_processor"],
+		["minecraft:iron_ingot", "#hypothermia:t3_circuits", "minecraft:iron_ingot"]
 	]);
-	
-	// ae2:silicon_press
-	event.shaped("ae2:silicon_press", [
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"],
-		["#c:iron_plates", "ae2:silicon", "#c:iron_plates"],
-		["#c:iron_plates", "#c:iron_plates", "#c:iron_plates"]
-	]);
-	
-	
+
 	// ae2things:disk_housing
 	event.remove({ output: "ae2things:disk_housing" });
 	event.shaped("ae2things:disk_housing", [
@@ -150,6 +151,14 @@ onEvent('recipes', (event) => {
 	/*
 		CHAPTER DELTA - DEEP MOB LEARNING
 	*/
+	
+	// dml-refabricated:deep_learner
+	event.remove({ output: "dml-refabricated:deep_learner" });
+	event.shaped("dml-refabricated:deep_learner", [
+		["dml-refabricated:soot_plate", "minecraft:repeater", "dml-refabricated:soot_plate"],
+		["minecraft:repeater", "dml-refabricated:data_model", "minecraft:repeater"],
+		["dml-refabricated:soot_plate", "dml-refabricated:soot_redstone", "dml-refabricated:soot_plate"]
+	]);
 	
 	// dmlsimulacrum:polymer_clay
 	event.remove({ output: "dmlsimulacrum:polymer_clay" });
@@ -206,9 +215,11 @@ onEvent('recipes', (event) => {
 	]);
 	
 	
-	// Remove all Kibe's rings except diamond & angel.
-	event.remove({ output: "kibe:magma_ring" });
-	event.remove({ output: "kibe:water_ring" });
-	event.remove({ output: "kibe:light_ring" });
 	
+	/*
+		MISC
+	*/
+	
+	
+		
 });

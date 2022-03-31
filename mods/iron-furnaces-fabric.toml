@@ -1,0 +1,13 @@
+name = "Iron Furnaces [FABRIC] "
+filename = "ironfurnaces-1.18-3.0.0-fabric.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3556/167/ironfurnaces-1.18-3.0.0-fabric.jar"
+hash-format = "murmur2"
+hash = "213516285"
+
+[update]
+[update.curseforge]
+file-id = 3556167
+project-id = 318036
